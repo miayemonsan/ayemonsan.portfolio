@@ -491,15 +491,16 @@
         </div>
       </div>
 
+   <!-- Visual Graphic Column -->
       <div class="hero-visual">
         <div class="circle-wrapper">
           <div class="outer-ring-line"></div>
           <div class="purple-ring"></div>
-          <!-- Transparent background image recommended to mimic reference template cutout style -->
-          <img src="amscvphoto.jpg" alt="Aye Mon San Portrait" class="avatar-img">
+          <!-- Apply CSS inline style directly to cut the image into a circle -->
+          <img src="amscvphoto.jpg" alt="Aye Mon San Portrait" class="avatar-img" style="border-radius: 50%; clip-path: circle(50% at 50% 50%); object-fit: cover; aspect-ratio: 1/1; bottom: 55px; width: 260px; height: 260px;">
         </div>
       </div>
-    </section>
+    </section>  
 
     <!-- 2. ABOUT SECTION -->
     <section class="content-section" id="about">
