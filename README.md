@@ -6,11 +6,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #6c5ce7;
-      --primary-light: #efecfd;
+      --primary: #3288BD;
+      --primary-light: #eef6fa;
       --text-dark: #1e1e24;
       --text-muted: #6b7280;
-      --bg-outer: #6c5ce7;
+      --bg-outer: #3288BD;
       --card-bg: #ffffff;
       --border-color: #f3f4f6;
     }
@@ -116,7 +116,7 @@
       font-weight: 500;
       text-decoration: none;
       font-size: 0.9em;
-      box-shadow: 0 10px 20px rgba(108, 92, 231, 0.2);
+      box-shadow: 0 10px 20px rgba(50, 136, 189, 0.2);
     }
 
     /* Section Component Layout Container */
@@ -218,7 +218,7 @@
     .btn-primary {
       background: var(--primary);
       color: #fff;
-      box-shadow: 0 12px 24px rgba(108, 92, 231, 0.3);
+      box-shadow: 0 12px 24px rgba(50, 136, 189, 0.3);
     }
 
     .btn-secondary {
@@ -254,7 +254,7 @@
       height: 320px;
       border: 32px solid var(--primary);
       border-radius: 50%;
-      box-shadow: 0 20px 40px rgba(108, 92, 231, 0.15);
+      box-shadow: 0 20px 40px rgba(50, 136, 189, 0.15);
       z-index: 1;
     }
 
@@ -262,7 +262,7 @@
       position: absolute;
       width: 380px;
       height: 380px;
-      border: 1px solid rgba(108, 92, 231, 0.15);
+      border: 1px solid rgba(50, 136, 189, 0.15);
       border-radius: 50%;
       z-index: 0;
     }
@@ -344,7 +344,7 @@
     .timeline-card:hover {
       transform: translateY(-5px);
       border-color: var(--primary);
-      box-shadow: 0 15px 30px rgba(108, 92, 231, 0.05);
+      box-shadow: 0 15px 30px rgba(50, 136, 189, 0.05);
     }
 
     .card-date-badge {
