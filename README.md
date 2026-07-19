@@ -1,3 +1,4 @@
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -175,12 +176,21 @@
       font-weight: 700;
       color: var(--text-dark);
       line-height: 1.15;
-      margin-bottom: 24px;
+      margin-bottom: 8px;
       letter-spacing: -1px;
     }
 
     .hero-content h1 span {
       color: var(--primary);
+    }
+
+    .hero-tagline {
+      font-size: 0.95em;
+      color: var(--primary);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 24px;
+      text-transform: uppercase;
     }
 
     .hero-content p {
@@ -222,7 +232,7 @@
       transform: translateY(-2px);
     }
 
-    /* Mockup-Accurate Ring Visual Layout */
+    /* Mockup-Accurate Ring Visual Layout with Masking Fix */
     .hero-visual {
       display: flex;
       justify-content: center;
@@ -259,11 +269,14 @@
 
     .avatar-img {
       position: absolute;
-      bottom: 25px; 
-      width: 290px;
-      height: auto;
       z-index: 2;
-      pointer-events: none;
+      border-radius: 50%;
+      clip-path: circle(50% at 50% 50%);
+      object-fit: cover;
+      aspect-ratio: 1/1;
+      bottom: 55px;
+      width: 260px;
+      height: 260px;
     }
 
     /* SECTION 2: ABOUT */
@@ -286,7 +299,7 @@
       font-size: 0.85em;
       text-transform: uppercase;
       letter-spacing: 1px;
-      color: var(--text-light);
+      color: var(--text-muted);
       margin-bottom: 4px;
     }
 
@@ -355,7 +368,7 @@
     .card-subheadline {
       font-size: 0.95em;
       font-weight: 600;
-      color: var(--text-light);
+      color: var(--text-muted);
       margin-bottom: 16px;
     }
 
@@ -369,16 +382,17 @@
       margin-bottom: 8px;
     }
 
-    /* SECTION 5: PORTFOLIO (CERTIFICATES GALLERY) */
+    /* SECTION 5: PORTFOLIO */
     .portfolio-intro {
       color: var(--text-muted);
       margin-bottom: 30px;
-      max-width: 700px;
+      max-width: 750px;
+      line-height: 1.6;
     }
 
     .portfolio-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 16px;
     }
 
@@ -420,7 +434,7 @@
       padding-top: 30px;
       border-top: 1px solid var(--border-color);
       font-size: 0.85em;
-      color: var(--text-light);
+      color: var(--text-muted);
     }
 
     /* Layout Responsiveness Rules */
@@ -429,7 +443,7 @@
         padding: 30px;
       }
       .nav-links {
-        display: none; /* Collapses navigation links for simplified mobile UI */
+        display: none; 
       }
       .hero-layout {
         grid-template-columns: 1fr;
@@ -481,9 +495,10 @@
     <section class="content-section hero-layout" id="home">
       <div class="hero-content">
         <div class="accent-line"></div>
-        <h1>im aye mon san,<br>an <span>english instructor</span></h1>
+        <h1>I'm <span>Aye Mon San</span>,<br>an <span>English Instructor</span></h1>
+        <div class="hero-tagline">English Instructor | TEFL Certified | Passionate Educator</div>
         <p>
-          Dedicated to fostering inclusive, engaging learning environments that encourage students to develop both linguistic and cultural competence.
+          Passionate about creating inclusive and engaging learning environments where students can develop strong English communication skills while building cultural awareness and confidence.
         </p>
         <div class="cta-group">
           <a href="mailto:miayemonsan34@gmail.com" class="btn-primary">Contact Me</a>
@@ -491,16 +506,14 @@
         </div>
       </div>
 
-   <!-- Visual Graphic Column -->
       <div class="hero-visual">
         <div class="circle-wrapper">
           <div class="outer-ring-line"></div>
           <div class="purple-ring"></div>
-          <!-- Apply CSS inline style directly to cut the image into a circle -->
-          <img src="amscvphoto.jpg" alt="Aye Mon San Portrait" class="avatar-img" style="border-radius: 50%; clip-path: circle(50% at 50% 50%); object-fit: cover; aspect-ratio: 1/1; bottom: 55px; width: 260px; height: 260px;">
+          <img src="amscvphoto.jpg" alt="Aye Mon San Portrait" class="avatar-img">
         </div>
       </div>
-    </section>  
+    </section>
 
     <!-- 2. ABOUT SECTION -->
     <section class="content-section" id="about">
@@ -508,15 +521,17 @@
       <div class="about-grid" style="margin-top: 20px;">
         <div>
           <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 20px; text-align: justify;">
-            Motivated and passionate English Communication student with a strong interest in teaching, intercultural communication, and lifelong learning. Experienced in volunteer teaching and community education projects.
+            I am a passionate English instructor and English Communication student with experience in online teaching, tutoring, and community education. I enjoy helping learners build confidence in English through engaging, student-centered lessons while promoting intercultural understanding and lifelong learning.
           </p>
           <h4 style="font-size: 1.1em; font-weight: 700; color: var(--text-dark); margin-top: 25px;">Core Teaching Competencies</h4>
           <div class="skills-flex">
             <span class="skill-pill">Classroom Management</span>
-            <span class="skill-pill">Communication & Presentation</span>
-            <span class="skill-pill">Public Speaking & Leadership</span>
-            <span class="skill-pill">Cross-cultural Understanding</span>
-            <span class="skill-pill">Active Listening & Adaptability</span>
+            <span class="skill-pill">Lesson Planning</span>
+            <span class="skill-pill">English Language Instruction</span>
+            <span class="skill-pill">Public Speaking</span>
+            <span class="skill-pill">Cross-cultural Communication</span>
+            <span class="skill-pill">Active Listening</span>
+            <span class="skill-pill">Adaptability</span>
           </div>
         </div>
         
@@ -531,7 +546,7 @@
 
     <!-- 3. EDUCATION SECTION -->
     <section class="content-section" id="education">
-      <h3 class="section-headline">Education History</h3>
+      <h3 class="section-headline">Education</h3>
       <div class="timeline-grid" style="margin-top: 20px;">
         
         <div class="timeline-card">
@@ -542,7 +557,7 @@
 
         <div class="timeline-card">
           <span class="card-date-badge">2021 – 2024</span>
-          <h4 class="card-headline">Associate Degree of Arts in Mass Media and Journalism</h4>
+          <h4 class="card-headline">Associate Degree in Mass Media and Journalism</h4>
           <p class="card-subheadline">Mon National College</p>
         </div>
 
@@ -557,7 +572,7 @@
 
     <!-- 4. EXPERIENCES SECTION -->
     <section class="content-section" id="experiences">
-      <h3 class="section-headline">Work Experiences</h3>
+      <h3 class="section-headline">Work Experience</h3>
       <div class="timeline-grid" style="margin-top: 20px;">
         
         <!-- Job 1 -->
@@ -566,8 +581,8 @@
           <h4 class="card-headline">General English Teacher</h4>
           <p class="card-subheadline">Poy English Program (Online)</p>
           <ul class="card-bullet-list">
-            <li>Taught English online, cultivating a welcoming, supportive, and inclusive learning environment.</li>
-            <li>Integrated practical conversational skills and foundational grammar structures into modern lesson formats.</li>
+            <li>Delivered engaging online English lessons in a supportive and inclusive learning environment.</li>
+            <li>Designed interactive lessons focusing on practical communication skills, grammar, vocabulary, and pronunciation.</li>
           </ul>
         </div>
 
@@ -577,8 +592,8 @@
           <h4 class="card-headline">Freelance English Tutor</h4>
           <p class="card-subheadline">Online Marketplace</p>
           <ul class="card-bullet-list">
-            <li>Provided specialized 1-on-1 and targeted group English lessons to learners from diverse cultural backgrounds.</li>
-            <li>Focused on advancing conversational fluidity, accent reduction, and grammar accuracy via high-engagement interactive sessions.</li>
+            <li>Delivered personalized one-on-one and small-group English lessons to learners from diverse cultural backgrounds.</li>
+            <li>Helped students improve speaking fluency, pronunciation, vocabulary, and grammar through interactive learning activities.</li>
           </ul>
         </div>
 
@@ -588,8 +603,8 @@
           <h4 class="card-headline">Volunteer Teacher</h4>
           <p class="card-subheadline">Chiang Rai Kindergarten</p>
           <ul class="card-bullet-list">
-            <li>Assisted in school-wide development initiatives and executed immersive English learning activities.</li>
-            <li>Organized dynamic, educational games designed to maximize classroom engagement and active retention.</li>
+            <li>Assisted teachers in classroom activities and supported English learning through interactive games and creative lessons.</li>
+            <li>Organized educational games and activities to encourage student participation and active learning.</li>
           </ul>
         </div>
 
@@ -599,8 +614,8 @@
           <h4 class="card-headline">Accountant</h4>
           <p class="card-subheadline">Nay La Kabar Co., Ltd.</p>
           <ul class="card-bullet-list">
-            <li>Managed daily financial logging profiles and assisted in the structuring of precise transactional reports.</li>
-            <li>Reconciled balance inquiries against incoming vendor invoices while monitoring strict operational budget limits.</li>
+            <li>Recorded daily financial transactions and prepared accurate financial reports.</li>
+            <li>Reconciled accounts, verified invoices, and maintained accurate financial records.</li>
           </ul>
         </div>
 
@@ -609,32 +624,32 @@
 
     <!-- 5. PORTFOLIO SECTION -->
     <section class="content-section" id="portfolio">
-      <h3 class="section-headline">Portfolio & Credentials</h3>
-      <p class="portfolio-intro">A collection of academic milestones, vocational credentials, and professional certification achievements earned throughout my education career:</p>
+      <h3 class="section-headline">Certifications & Achievements</h3>
+      <p class="portfolio-intro">A collection of professional certifications, training programs, and academic achievements that reflect my commitment to continuous learning and professional development:</p>
       
       <div class="portfolio-grid">
         <div class="portfolio-item-card"><div class="portfolio-icon">🎓</div> TEFL Certification</div>
         <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> English for Career Development</div>
         <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching English in Primary Education</div>
         <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Supporting Learning in Primary Education</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching Refugees & Displaced Learners</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching English to Refugees and Displaced Learners</div>
         <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Supporting Children's Mental Health</div>
         <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Gender in Language Education</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching Pronunciation & Listening Systems</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Understanding Language Systems</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Primary Education: Listening & Observing</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Young Children, the Outdoors, and Nature</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching Pronunciation and Listening Skills</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Understanding English Language Systems</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Listening and Observation in Primary Education</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Young Children, Nature, and Outdoor Learning</div>
         <div class="portfolio-item-card"><div class="portfolio-icon">💼</div> Business Knowledge Sharing Workshop</div>
         <div class="portfolio-item-card"><div class="portfolio-icon">💼</div> Career Planning and Job Search</div>
         <div class="portfolio-item-card"><div class="portfolio-icon">🏫</div> Mon Intensive English Program</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">🏫</div> General English (Elementary Level)</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">🏫</div> General English – Elementary Level</div>
         <div class="portfolio-item-card"><div class="portfolio-icon">🎓</div> High School Certificate</div>
       </div>
     </section>
 
     <!-- FOOTER -->
     <footer>
-      &copy; 2026 Aye Mon San. All Rights Reserved.
+      &copy; 2026 Aye Mon San. All rights reserved.
     </footer>
 
   </div>
