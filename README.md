@@ -1,8 +1,7 @@
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aye Mon San | Portfolio</title>
+  <title>Aye Mon San | Portfolio Website</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -19,6 +18,7 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+      scroll-behavior: smooth;
     }
 
     body {
@@ -31,7 +31,7 @@
       padding: 40px 20px;
     }
 
-    /* Main Modern Container Frame */
+    /* Main Modern Canvas Wrapper */
     .app-container {
       width: 100%;
       max-width: 1200px;
@@ -42,12 +42,17 @@
       position: relative;
     }
 
-    /* Navigation Bar Layout */
+    /* Sticky/Fixed-style Navigation Bar */
     nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
+      position: sticky;
+      top: 0;
+      background: #ffffff;
+      z-index: 100;
+      padding: 10px 0;
     }
 
     .logo {
@@ -79,7 +84,7 @@
       display: flex;
       align-items: center;
       list-style: none;
-      gap: 12px;
+      gap: 8px;
       background: #fdfdfd;
       padding: 6px 12px;
       border-radius: 30px;
@@ -92,18 +97,14 @@
       color: var(--text-muted);
       font-size: 0.9em;
       font-weight: 500;
-      padding: 8px 16px;
+      padding: 8px 18px;
       border-radius: 20px;
       transition: all 0.2s ease;
     }
 
-    .nav-links a:hover {
+    .nav-links a:hover, .nav-links a.active {
       color: var(--primary);
-    }
-
-    .nav-links a.active {
       background: var(--primary-light);
-      color: var(--primary);
     }
 
     .btn-contact-nav {
@@ -117,13 +118,44 @@
       box-shadow: 0 10px 20px rgba(108, 92, 231, 0.2);
     }
 
-    /* Hero Section Component */
-    .hero-section {
+    /* Section Component Layout Container */
+    .content-section {
+      padding: 80px 0 40px 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .content-section:last-of-type {
+      border-bottom: none;
+    }
+
+    /* Section Headline Styling */
+    .section-headline {
+      font-size: 2em;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-headline::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 40px;
+      height: 4px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+
+    /* SECTION 1: HERO HOME */
+    .hero-layout {
       display: grid;
       grid-template-columns: 1.1fr 0.9fr;
       align-items: center;
       gap: 40px;
-      margin-bottom: 60px;
+      padding-top: 20px;
     }
 
     .hero-content {
@@ -153,10 +185,9 @@
 
     .hero-content p {
       color: var(--text-muted);
-      font-size: 0.95em;
+      font-size: 1.05em;
       line-height: 1.6;
       margin-bottom: 40px;
-      text-align: justify;
     }
 
     .cta-group {
@@ -164,36 +195,34 @@
       gap: 20px;
     }
 
-    .btn-primary {
-      background: var(--primary);
-      color: #fff;
+    .btn-primary, .btn-secondary {
       padding: 16px 36px;
       border-radius: 16px;
       font-weight: 600;
       text-decoration: none;
       font-size: 0.95em;
-      box-shadow: 0 12px 24px rgba(108, 92, 231, 0.3);
       transition: transform 0.2s, box-shadow 0.2s;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 12px 24px rgba(108, 92, 231, 0.3);
     }
 
     .btn-secondary {
       background: #ffffff;
       color: var(--primary);
-      padding: 16px 36px;
-      border-radius: 16px;
-      font-weight: 600;
-      text-decoration: none;
-      font-size: 0.95em;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
       border: 1px solid rgba(0,0,0,0.05);
-      transition: transform 0.2s, box-shadow 0.2s;
     }
 
     .btn-primary:hover, .btn-secondary:hover {
       transform: translateY(-2px);
     }
 
-    /* Ring Visual Graphics */
+    /* Mockup-Accurate Ring Visual Layout */
     .hero-visual {
       display: flex;
       justify-content: center;
@@ -237,163 +266,152 @@
       pointer-events: none;
     }
 
-    /* Core CV Secondary Grid System */
-    .cv-details-grid {
+    /* SECTION 2: ABOUT */
+    .about-grid {
       display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 60px;
-      border-top: 2px solid var(--border-color);
-      padding-top: 60px;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
     }
 
-    .section-headline {
-      font-size: 1.4em;
-      font-weight: 700;
+    .about-details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      background: #fafafa;
+      padding: 30px;
+      border-radius: 24px;
+    }
+
+    .about-meta-box h4 {
+      font-size: 0.85em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-light);
+      margin-bottom: 4px;
+    }
+
+    .about-meta-box p {
       color: var(--text-dark);
-      margin-bottom: 24px;
-      position: relative;
-      padding-bottom: 8px;
-    }
-
-    .section-headline::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 35px;
-      height: 3px;
-      background: var(--primary);
-      border-radius: 2px;
-    }
-
-    .sidebar-block {
-      margin-bottom: 40px;
-    }
-
-    /* Sidebar Content Styles */
-    .contact-item, .meta-item {
-      margin-bottom: 12px;
-      font-size: 0.95em;
-      color: var(--text-muted);
-    }
-
-    .contact-item b, .meta-item b {
-      color: var(--text-dark);
-    }
-
-    .lang-badge {
-      display: flex;
-      justify-content: space-between;
-      padding: 8px 0;
-      border-bottom: 1px dashed var(--border-color);
-      font-size: 0.95em;
-    }
-
-    .lang-level {
-      color: var(--primary);
-      font-weight: 500;
+      font-weight: 600;
     }
 
     .skills-flex {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 10px;
+      margin-top: 15px;
     }
 
     .skill-pill {
       background: var(--primary-light);
       color: var(--primary);
-      padding: 6px 14px;
+      padding: 8px 16px;
       border-radius: 20px;
-      font-size: 0.85em;
+      font-size: 0.9em;
       font-weight: 500;
     }
 
-    /* Main Experience Timeline Style components */
-    .timeline-item {
+    /* SECTION 3 & 4: TIMELINES (EDUCATION & EXPERIENCES) */
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+
+    .timeline-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      padding: 30px;
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.01);
       position: relative;
-      padding-left: 28px;
-      border-left: 2px solid var(--primary-light);
-      margin-bottom: 35px;
+      transition: all 0.3s ease;
     }
 
-    .timeline-item::before {
-      content: '';
-      position: absolute;
-      left: -7px;
-      top: 6px;
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      background: var(--primary);
+    .timeline-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--primary);
+      box-shadow: 0 15px 30px rgba(108, 92, 231, 0.05);
     }
 
-    .timeline-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
+    .card-date-badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 0.8em;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+
+    .card-headline {
+      font-size: 1.25em;
+      font-weight: 700;
+      color: var(--text-dark);
       margin-bottom: 4px;
     }
 
-    .timeline-title {
-      font-size: 1.15em;
-      font-weight: 700;
-      color: var(--text-dark);
-    }
-
-    .timeline-date {
-      font-size: 0.85em;
-      font-weight: 500;
-      color: var(--text-light);
-    }
-
-    .timeline-org {
-      font-weight: 600;
-      color: var(--primary);
+    .card-subheadline {
       font-size: 0.95em;
-      margin-bottom: 10px;
+      font-weight: 600;
+      color: var(--text-light);
+      margin-bottom: 16px;
     }
 
-    .timeline-desc {
-      list-style-position: inside;
+    .card-bullet-list {
+      padding-left: 18px;
       color: var(--text-muted);
       font-size: 0.9em;
     }
 
-    .timeline-desc li {
-      margin-bottom: 4px;
-      line-height: 1.5;
+    .card-bullet-list li {
+      margin-bottom: 8px;
     }
 
-    /* Dynamic Grid Layout for Credentials */
-    .credentials-grid {
+    /* SECTION 5: PORTFOLIO (CERTIFICATES GALLERY) */
+    .portfolio-intro {
+      color: var(--text-muted);
+      margin-bottom: 30px;
+      max-width: 700px;
+    }
+
+    .portfolio-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
     }
 
-    .cert-item-card {
+    .portfolio-item-card {
       background: #fafafa;
       border: 1px solid var(--border-color);
-      padding: 12px 16px;
-      border-radius: 12px;
-      font-size: 0.85em;
+      padding: 20px;
+      border-radius: 16px;
+      font-size: 0.9em;
       color: var(--text-dark);
-      font-weight: 500;
+      font-weight: 600;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       transition: all 0.2s;
     }
 
-    .cert-item-card:hover {
+    .portfolio-item-card:hover {
       border-color: var(--primary);
       background: var(--primary-light);
+      color: var(--primary);
+      transform: scale(1.02);
     }
 
-    .cert-icon {
-      color: var(--primary);
-      font-weight: bold;
+    .portfolio-icon {
+      background: #ffffff;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.03);
     }
 
     footer {
@@ -405,15 +423,15 @@
       color: var(--text-light);
     }
 
-    /* Full Responsiveness Rule Breaks */
+    /* Layout Responsiveness Rules */
     @media (max-width: 992px) {
       .app-container {
         padding: 30px;
       }
       .nav-links {
-        display: none;
+        display: none; /* Collapses navigation links for simplified mobile UI */
       }
-      .hero-section {
+      .hero-layout {
         grid-template-columns: 1fr;
         text-align: center;
       }
@@ -431,11 +449,7 @@
       .cta-group {
         justify-content: center;
       }
-      .cv-details-grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
-      }
-      .credentials-grid {
+      .about-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -445,7 +459,7 @@
 
   <div class="app-container">
     
-    <!-- NAVIGATION BAR -->
+    <!-- HEADER WEBSITE NAVIGATION -->
     <nav>
       <div class="logo">
         <div class="logo-icon">C</div>
@@ -453,26 +467,27 @@
       </div>
       
       <ul class="nav-links">
-        <li><a href="#home" class="active">home</a></li>
-        <li><a href="#experience">experience</a></li>
-        <li><a href="#education">education</a></li>
-        <li><a href="#certificates">credentials</a></li>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
       </ul>
 
-      <a href="mailto:miayemonsan34@gmail.com" class="btn-contact-nav">contact</a>
+      <a href="mailto:miayemonsan34@gmail.com" class="btn-contact-nav">Contact</a>
     </nav>
 
-    <!-- HERO PROFILE SECTION -->
-    <section class="hero-section" id="home">
+    <!-- 1. HOME SECTION -->
+    <section class="content-section hero-layout" id="home">
       <div class="hero-content">
         <div class="accent-line"></div>
         <h1>im aye mon san,<br>an <span>english instructor</span></h1>
         <p>
-          Motivated and passionate English Communication student with a strong interest in teaching, intercultural communication, and lifelong learning. Experienced in volunteer teaching and community education projects. Dedicated to fostering inclusive, engaging learning environments that encourage students to develop both linguistic and cultural competence.
+          Dedicated to fostering inclusive, engaging learning environments that encourage students to develop both linguistic and cultural competence.
         </p>
         <div class="cta-group">
-          <a href="mailto:miayemonsan34@gmail.com" class="btn-primary">contact me</a>
-          <a href="#certificates" class="btn-secondary">view credentials</a>
+          <a href="mailto:miayemonsan34@gmail.com" class="btn-primary">Contact Me</a>
+          <a href="#portfolio" class="btn-secondary">Browse Portfolio</a>
         </div>
       </div>
 
@@ -480,46 +495,21 @@
         <div class="circle-wrapper">
           <div class="outer-ring-line"></div>
           <div class="purple-ring"></div>
-          <img src="amscvphoto.png" alt="Aye Mon San Portrait" class="avatar-img">
+          <!-- Transparent background image recommended to mimic reference template cutout style -->
+          <img src="amscvphoto.jpg" alt="Aye Mon San Portrait" class="avatar-img">
         </div>
       </div>
     </section>
 
-    <!-- METADATA & DATA GRID LAYOUT -->
-    <div class="cv-details-grid">
-      
-      <!-- LEFT COLUMN: SIDEBAR DATA -->
-      <aside>
-        
-        <!-- Contact Block -->
-        <div class="sidebar-block">
-          <h3 class="section-headline">Contact</h3>
-          <div class="contact-item"><b>Phone:</b> 092-396-9849</div>
-          <div class="contact-item"><b>Email:</b> <a href="mailto:miayemonsan34@gmail.com">miayemonsan34@gmail.com</a></div>
-          <div class="contact-item"><b>Address:</b> Chiang Mai, Thailand</div>
-        </div>
-
-        <!-- Personal Info Block -->
-        <div class="sidebar-block">
-          <h3 class="section-headline">Personal Info</h3>
-          <div class="meta-item"><b>Gender:</b> Female</div>
-          <div class="meta-item"><b>Age:</b> 27</div>
-          <div class="meta-item"><b>Nationality:</b> Myanmar</div>
-          <div class="meta-item"><b>Marital Status:</b> Single</div>
-        </div>
-
-        <!-- Languages Block -->
-        <div class="sidebar-block">
-          <h3 class="section-headline">Languages</h3>
-          <div class="lang-badge"><span>Mon</span> <span class="lang-level">Native</span></div>
-          <div class="lang-badge"><span>Burmese</span> <span class="lang-level">Fluent</span></div>
-          <div class="lang-badge"><span>English</span> <span class="lang-level">Proficient</span></div>
-          <div class="lang-badge"><span>Thai</span> <span class="lang-level">Intermediate</span></div>
-        </div>
-
-        <!-- Skills Block -->
-        <div class="sidebar-block">
-          <h3 class="section-headline">Core Skills</h3>
+    <!-- 2. ABOUT SECTION -->
+    <section class="content-section" id="about">
+      <h3 class="section-headline">About Me</h3>
+      <div class="about-grid" style="margin-top: 20px;">
+        <div>
+          <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 20px; text-align: justify;">
+            Motivated and passionate English Communication student with a strong interest in teaching, intercultural communication, and lifelong learning. Experienced in volunteer teaching and community education projects.
+          </p>
+          <h4 style="font-size: 1.1em; font-weight: 700; color: var(--text-dark); margin-top: 25px;">Core Teaching Competencies</h4>
           <div class="skills-flex">
             <span class="skill-pill">Classroom Management</span>
             <span class="skill-pill">Communication & Presentation</span>
@@ -528,129 +518,118 @@
             <span class="skill-pill">Active Listening & Adaptability</span>
           </div>
         </div>
-
-      </aside>
-
-      <!-- RIGHT COLUMN: MAIN EXPERIENCE & TIMELINES -->
-      <main>
         
-        <!-- Work Experience Timeline -->
-        <section id="experience" style="margin-bottom: 50px;">
-          <h3 class="section-headline">Work Experience</h3>
-          
-          <!-- Job 1 -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <span class="timeline-title">General English Teacher</span>
-              <span class="timeline-date">2025 – 2026</span>
-            </div>
-            <div class="timeline-org">Poy English Program (Online)</div>
-            <ul class="timeline-desc">
-              <li>Taught English online, cultivating a welcoming, supportive, and inclusive learning environment.</li>
-              <li>Integrated practical conversational skills and foundational grammar structures into modern lesson formats.</li>
-            </ul>
-          </div>
+        <div class="about-details">
+          <div class="about-meta-box"><h4>Nationality</h4><p>Myanmar</p></div>
+          <div class="about-meta-box"><h4>Languages</h4><p>Mon, Burmese, English, Thai</p></div>
+          <div class="about-meta-box"><h4>Age / Gender</h4><p>27 / Female</p></div>
+          <div class="about-meta-box"><h4>Current Base</h4><p>Chiang Mai, Thailand</p></div>
+        </div>
+      </div>
+    </section>
 
-          <!-- Job 2 -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <span class="timeline-title">Freelance English Tutor</span>
-              <span class="timeline-date">Sep 2024 – Jul 2025</span>
-            </div>
-            <div class="timeline-org">Online Marketplace</div>
-            <ul class="timeline-desc">
-              <li>Provided specialized 1-on-1 and targeted group English lessons to learners from diverse cultural backgrounds.</li>
-              <li>Focused on advancing conversational fluidity, accent reduction, and grammar accuracy via high-engagement interactive sessions.</li>
-            </ul>
-          </div>
+    <!-- 3. EDUCATION SECTION -->
+    <section class="content-section" id="education">
+      <h3 class="section-headline">Education History</h3>
+      <div class="timeline-grid" style="margin-top: 20px;">
+        
+        <div class="timeline-card">
+          <span class="card-date-badge">2024 – Present</span>
+          <h4 class="card-headline">B.A. in English Communication Arts</h4>
+          <p class="card-subheadline">Payap University</p>
+        </div>
 
-          <!-- Job 3 -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <span class="timeline-title">Volunteer Teacher</span>
-              <span class="timeline-date">Jan 2025</span>
-            </div>
-            <div class="timeline-org">Chiang Rai Kindergarten</div>
-            <ul class="timeline-desc">
-              <li>Assisted in school-wide development initiatives and executed immersive English learning activities.</li>
-              <li>Organized dynamic, educational games designed to maximize classroom engagement and active retention.</li>
-              <li>Collaborated closely with lead teachers on targeted lesson execution and strategic classroom management.</li>
-            </ul>
-          </div>
+        <div class="timeline-card">
+          <span class="card-date-badge">2021 – 2024</span>
+          <h4 class="card-headline">Associate Degree of Arts in Mass Media and Journalism</h4>
+          <p class="card-subheadline">Mon National College</p>
+        </div>
 
-          <!-- Job 4 -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <span class="timeline-title">Accountant</span>
-              <span class="timeline-date">Nov 2018 – Jan 2019</span>
-            </div>
-            <div class="timeline-org">Nay La Kabar Co., Ltd.</div>
-            <ul class="timeline-desc">
-              <li>Managed daily financial logging profiles and assisted in the structuring of precise transactional reports.</li>
-              <li>Reconciled balance inquiries against incoming vendor invoices while monitoring strict operational budget limits.</li>
-              <li>Assisted corporate teams in compiling accurate end-of-month financial summary records.</li>
-            </ul>
-          </div>
-        </section>
+        <div class="timeline-card">
+          <span class="card-date-badge">2018 – 2019</span>
+          <h4 class="card-headline">B.A. in English</h4>
+          <p class="card-subheadline">Hpa-An Distance University</p>
+        </div>
 
-        <!-- Education Timeline -->
-        <section id="education" style="margin-bottom: 50px;">
-          <h3 class="section-headline">Education</h3>
-          
-          <!-- Edu 1 -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <span class="timeline-title">B.A. in English Communication Arts</span>
-              <span class="timeline-date">2024 – Present</span>
-            </div>
-            <div class="timeline-org">Payap University</div>
-          </div>
+      </div>
+    </section>
 
-          <!-- Edu 2 -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <span class="timeline-title">Associate Degree of Arts in Mass Media and Journalism</span>
-              <span class="timeline-date">2021 – 2024</span>
-            </div>
-            <div class="timeline-org">Mon National College</div>
-          </div>
+    <!-- 4. EXPERIENCES SECTION -->
+    <section class="content-section" id="experiences">
+      <h3 class="section-headline">Work Experiences</h3>
+      <div class="timeline-grid" style="margin-top: 20px;">
+        
+        <!-- Job 1 -->
+        <div class="timeline-card">
+          <span class="card-date-badge">2025 – 2026</span>
+          <h4 class="card-headline">General English Teacher</h4>
+          <p class="card-subheadline">Poy English Program (Online)</p>
+          <ul class="card-bullet-list">
+            <li>Taught English online, cultivating a welcoming, supportive, and inclusive learning environment.</li>
+            <li>Integrated practical conversational skills and foundational grammar structures into modern lesson formats.</li>
+          </ul>
+        </div>
 
-          <!-- Edu 3 -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <span class="timeline-title">B.A. in English</span>
-              <span class="timeline-date">2018 – 2019</span>
-            </div>
-            <div class="timeline-org">Hpa-An Distance University</div>
-          </div>
-        </section>
+        <!-- Job 2 -->
+        <div class="timeline-card">
+          <span class="card-date-badge">Sep 2024 – Jul 2025</span>
+          <h4 class="card-headline">Freelance English Tutor</h4>
+          <p class="card-subheadline">Online Marketplace</p>
+          <ul class="card-bullet-list">
+            <li>Provided specialized 1-on-1 and targeted group English lessons to learners from diverse cultural backgrounds.</li>
+            <li>Focused on advancing conversational fluidity, accent reduction, and grammar accuracy via high-engagement interactive sessions.</li>
+          </ul>
+        </div>
 
-        <!-- Certifications Layout Grid -->
-        <section id="certificates">
-          <h3 class="section-headline">Credentials & Certifications</h3>
-          <div class="credentials-grid">
-            <div class="cert-item-card"><span class="cert-icon">✓</span> TEFL Certification</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> English for Career Development</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Teaching English in Primary Education</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Supporting Learning in Primary Education</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Teaching Refugees & Displaced Learners</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Supporting Children's Mental Health</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Gender in Language Education</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Teaching Pronunciation & Listening Systems</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Understanding Language Systems</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Primary Education: Listening & Observing</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Young Children, the Outdoors, and Nature</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Business Knowledge Sharing Workshop</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Career Planning and Job Search</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> Mon Intensive English Program</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> General English (Elementary Level)</div>
-            <div class="cert-item-card"><span class="cert-icon">✓</span> High School Certificate</div>
-          </div>
-        </section>
+        <!-- Job 3 -->
+        <div class="timeline-card">
+          <span class="card-date-badge">Jan 2025</span>
+          <h4 class="card-headline">Volunteer Teacher</h4>
+          <p class="card-subheadline">Chiang Rai Kindergarten</p>
+          <ul class="card-bullet-list">
+            <li>Assisted in school-wide development initiatives and executed immersive English learning activities.</li>
+            <li>Organized dynamic, educational games designed to maximize classroom engagement and active retention.</li>
+          </ul>
+        </div>
 
-      </main>
+        <!-- Job 4 -->
+        <div class="timeline-card">
+          <span class="card-date-badge">Nov 2018 – Jan 2019</span>
+          <h4 class="card-headline">Accountant</h4>
+          <p class="card-subheadline">Nay La Kabar Co., Ltd.</p>
+          <ul class="card-bullet-list">
+            <li>Managed daily financial logging profiles and assisted in the structuring of precise transactional reports.</li>
+            <li>Reconciled balance inquiries against incoming vendor invoices while monitoring strict operational budget limits.</li>
+          </ul>
+        </div>
 
-    </div>
+      </div>
+    </section>
+
+    <!-- 5. PORTFOLIO SECTION -->
+    <section class="content-section" id="portfolio">
+      <h3 class="section-headline">Portfolio & Credentials</h3>
+      <p class="portfolio-intro">A collection of academic milestones, vocational credentials, and professional certification achievements earned throughout my education career:</p>
+      
+      <div class="portfolio-grid">
+        <div class="portfolio-item-card"><div class="portfolio-icon">🎓</div> TEFL Certification</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> English for Career Development</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching English in Primary Education</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Supporting Learning in Primary Education</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching Refugees & Displaced Learners</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Supporting Children's Mental Health</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Gender in Language Education</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching Pronunciation & Listening Systems</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Understanding Language Systems</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Primary Education: Listening & Observing</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Young Children, the Outdoors, and Nature</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">💼</div> Business Knowledge Sharing Workshop</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">💼</div> Career Planning and Job Search</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">🏫</div> Mon Intensive English Program</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">🏫</div> General English (Elementary Level)</div>
+        <div class="portfolio-item-card"><div class="portfolio-icon">🎓</div> High School Certificate</div>
+      </div>
+    </section>
 
     <!-- FOOTER -->
     <footer>
@@ -658,3 +637,14 @@
     </footer>
 
   </div>
+
+  <!-- Optional Script to handle active tab swapping while clicking links -->
+  <script>
+    const links = document.querySelectorAll('.nav-links a');
+    links.forEach(link => {
+      link.addEventListener('click', function() {
+        links.forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  </script>
