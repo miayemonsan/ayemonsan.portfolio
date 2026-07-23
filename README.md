@@ -510,7 +510,7 @@
         <div class="circle-wrapper">
           <div class="outer-ring-line"></div>
           <div class="purple-ring"></div>
-          <img src="amscvphoto.jpg" alt="Aye Mon San Portrait" class="avatar-img">
+          <img src="profile.jpeg" alt="Aye Mon San Portrait" class="avatar-img">
         </div>
       </div>
     </section>
