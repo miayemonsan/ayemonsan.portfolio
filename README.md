@@ -1,18 +1,18 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1200, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aye Mon San | Portfolio Website</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #3288BD;
-      --primary-light: #eef6fa;
-      --text-dark: #1e1e24;
-      --text-muted: #6b7280;
-      --bg-outer: #3288BD;
-      --card-bg: #ffffff;
-      --border-color: #f3f4f6;
+      --primary: #1F4E79;           /* Deep Ocean Blue */
+      --primary-light: #EBF2F7;     /* Soft Muted Blue Accent */
+      --text-dark: #101828;         /* Crisp Dark Text */
+      --text-muted: #475467;        /* Soft Charcoal Secondary Text */
+      --bg-outer: #0F172A;          /* Elegant Dark Slate/Navy Canvas */
+      --card-bg: #ffffff;           /* Main Card Background */
+      --border-color: #EAECF0;
     }
 
     * {
@@ -38,7 +38,7 @@
       max-width: 1200px;
       background: var(--card-bg);
       border-radius: 40px;
-      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
       padding: 40px 60px 60px 60px;
       position: relative;
     }
@@ -116,7 +116,7 @@
       font-weight: 500;
       text-decoration: none;
       font-size: 0.9em;
-      box-shadow: 0 10px 20px rgba(50, 136, 189, 0.2);
+      box-shadow: 0 10px 20px rgba(31, 78, 121, 0.25);
     }
 
     /* Section Component Layout Container */
@@ -218,14 +218,14 @@
     .btn-primary {
       background: var(--primary);
       color: #fff;
-      box-shadow: 0 12px 24px rgba(50, 136, 189, 0.3);
+      box-shadow: 0 12px 24px rgba(31, 78, 121, 0.3);
     }
 
     .btn-secondary {
       background: #ffffff;
       color: var(--primary);
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
-      border: 1px solid rgba(0,0,0,0.05);
+      border: 1px solid rgba(0,0,0,0.08);
     }
 
     .btn-primary:hover, .btn-secondary:hover {
@@ -254,7 +254,7 @@
       height: 320px;
       border: 32px solid var(--primary);
       border-radius: 50%;
-      box-shadow: 0 20px 40px rgba(50, 136, 189, 0.15);
+      box-shadow: 0 20px 40px rgba(31, 78, 121, 0.15);
       z-index: 1;
     }
 
@@ -262,7 +262,7 @@
       position: absolute;
       width: 380px;
       height: 380px;
-      border: 1px solid rgba(50, 136, 189, 0.15);
+      border: 1px solid rgba(31, 78, 121, 0.2);
       border-radius: 50%;
       z-index: 0;
     }
@@ -290,7 +290,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
-      background: #fafafa;
+      background: #f8fafc;
       padding: 30px;
       border-radius: 24px;
     }
@@ -344,7 +344,7 @@
     .timeline-card:hover {
       transform: translateY(-5px);
       border-color: var(--primary);
-      box-shadow: 0 15px 30px rgba(50, 136, 189, 0.05);
+      box-shadow: 0 15px 30px rgba(31, 78, 121, 0.08);
     }
 
     .card-date-badge {
@@ -397,7 +397,7 @@
     }
 
     .portfolio-item-card {
-      background: #fafafa;
+      background: #f8fafc;
       border: 1px solid var(--border-color);
       padding: 20px;
       border-radius: 16px;
