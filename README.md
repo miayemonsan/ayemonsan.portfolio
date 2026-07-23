@@ -6,11 +6,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #1F4E79;           /* Deep Ocean Blue */
+      --primary: #1F4E79;           /* Deep Ocean Blue Accent */
       --primary-light: #EBF2F7;     /* Soft Muted Blue Accent */
       --text-dark: #101828;         /* Crisp Dark Text */
       --text-muted: #475467;        /* Soft Charcoal Secondary Text */
-      --bg-outer: #0F172A;          /* Elegant Dark Slate/Navy Canvas */
+      --bg-outer: #87CEEB;          /* Sky Blue Canvas Background */
       --card-bg: #ffffff;           /* Main Card Background */
       --border-color: #EAECF0;
     }
@@ -38,7 +38,7 @@
       max-width: 1200px;
       background: var(--card-bg);
       border-radius: 40px;
-      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
       padding: 40px 60px 60px 60px;
       position: relative;
     }
