@@ -1,4 +1,3 @@
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,8 +5,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #d8315b;           /* Vibrant Crimson/Rose */
-      --primary-light: #fbebf0;     /* Soft Light Primary Tint */
+      --primary: #7209B7;           /* Deep Vibrant Violet */
+      --primary-light: #f1e6f9;     /* Soft Light Primary Tint */
       --text-dark: #101828;         /* Crisp Dark Text */
       --text-muted: #475467;        /* Soft Charcoal Secondary Text */
       --bg-outer: #D3D3D3;          /* Light Gray Canvas */
@@ -118,7 +117,7 @@
       font-weight: 500;
       text-decoration: none;
       font-size: 0.9em;
-      box-shadow: 0 10px 20px rgba(216, 49, 91, 0.25);
+      box-shadow: 0 10px 20px rgba(114, 9, 183, 0.25);
     }
 
     /* Section Component Layout Container */
@@ -220,7 +219,7 @@
     .btn-primary {
       background: var(--primary);
       color: #fff;
-      box-shadow: 0 12px 24px rgba(216, 49, 91, 0.3);
+      box-shadow: 0 12px 24px rgba(114, 9, 183, 0.3);
     }
 
     .btn-secondary {
@@ -255,7 +254,7 @@
       height: 320px;
       border: 32px solid var(--primary);
       border-radius: 50%;
-      box-shadow: 0 20px 40px rgba(216, 49, 91, 0.15);
+      box-shadow: 0 20px 40px rgba(114, 9, 183, 0.15);
       z-index: 1;
     }
 
@@ -263,7 +262,7 @@
       position: absolute;
       width: 380px;
       height: 380px;
-      border: 1px solid rgba(216, 49, 91, 0.2);
+      border: 1px solid rgba(114, 9, 183, 0.2);
       border-radius: 50%;
       z-index: 0;
     }
@@ -370,7 +369,7 @@
     .timeline-card:hover {
       transform: translateY(-5px);
       border-color: var(--primary);
-      box-shadow: 0 15px 30px rgba(216, 49, 91, 0.08);
+      box-shadow: 0 15px 30px rgba(114, 9, 183, 0.08);
     }
 
     .card-date-badge {
@@ -477,7 +476,7 @@
     .contact-card:hover {
       border-color: var(--primary);
       transform: translateY(-3px);
-      box-shadow: 0 10px 20px rgba(216, 49, 91, 0.05);
+      box-shadow: 0 10px 20px rgba(114, 9, 183, 0.05);
     }
 
     .contact-card .icon {
