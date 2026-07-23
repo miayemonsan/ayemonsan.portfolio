@@ -1,3 +1,4 @@
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -5,10 +6,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #1F4E79;           /* Deep Ocean Blue */
-      --primary-light: #EBF2F7;     /* Soft Muted Blue Accent */
+      --primary: #3e92cc;           /* Custom Primary Blue */
+      --primary-light: #f0f7fc;     /* Light Tint for Hovers & Pills */
       --text-dark: #101828;         /* Crisp Dark Text */
-      --text-muted: #475467;        /* Soft Charcoal Secondary Text */
+      --text-muted: #475467;        /* Soft Secondary Text */
       --bg-outer: #D3D3D3;          /* Light Gray Canvas */
       --card-bg: #ffffff;           /* Main Card Background */
       --border-color: #EAECF0;
@@ -115,7 +116,7 @@
       font-weight: 500;
       text-decoration: none;
       font-size: 0.9em;
-      box-shadow: 0 10px 20px rgba(31, 78, 121, 0.25);
+      box-shadow: 0 10px 20px rgba(62, 146, 204, 0.25);
     }
 
     /* Section Component Layout Container */
@@ -217,7 +218,7 @@
     .btn-primary {
       background: var(--primary);
       color: #fff;
-      box-shadow: 0 12px 24px rgba(31, 78, 121, 0.3);
+      box-shadow: 0 12px 24px rgba(62, 146, 204, 0.3);
     }
 
     .btn-secondary {
@@ -253,7 +254,7 @@
       height: 320px;
       border: 32px solid var(--primary);
       border-radius: 50%;
-      box-shadow: 0 20px 40px rgba(31, 78, 121, 0.15);
+      box-shadow: 0 20px 40px rgba(62, 146, 204, 0.15);
       z-index: 1;
     }
 
@@ -261,7 +262,7 @@
       position: absolute;
       width: 380px;
       height: 380px;
-      border: 1px solid rgba(31, 78, 121, 0.2);
+      border: 1px solid rgba(62, 146, 204, 0.2);
       border-radius: 50%;
       z-index: 0;
     }
@@ -343,7 +344,7 @@
     .timeline-card:hover {
       transform: translateY(-5px);
       border-color: var(--primary);
-      box-shadow: 0 15px 30px rgba(31, 78, 121, 0.08);
+      box-shadow: 0 15px 30px rgba(62, 146, 204, 0.08);
     }
 
     .card-date-badge {
