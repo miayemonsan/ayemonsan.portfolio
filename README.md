@@ -751,7 +751,7 @@
         <!-- NEW QUICK LINKS SECTION (Replaces old button boxes) -->
         <div class="hero-links-group">
           <!-- CV / Resume Link (REPLACE href="cv.pdf" with your file path or link) -->
-          <a href="cv.pdf" target="_blank" class="action-link action-link-outline">
+          <a href="https://miayemonsan.github.io/ayemonsan/" target="_blank" class="action-link action-link-outline">
             <i class="fa-solid fa-file-pdf"></i> CV / Resume
           </a>
 
