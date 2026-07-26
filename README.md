@@ -1,7 +1,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <title>Aye Mon San | Portfolio Website</title>
   
   <!-- Font Awesome Icons -->
@@ -300,39 +300,6 @@
 
     .arch-gradient-frame:hover .photo-inner-card img {
       transform: scale(1.03);
-    }
-
-    .floating-badge {
-      position: absolute;
-      z-index: 3;
-      background: #ffffff;
-      padding: 10px 18px;
-      border-radius: 20px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.82em;
-      font-weight: 600;
-      color: var(--text-dark);
-      border: 1px solid rgba(30, 64, 175, 0.12);
-    }
-
-    .badge-top-right {
-      top: 15px;
-      right: -15px;
-      animation: floatSmooth 4s ease-in-out infinite alternate;
-    }
-
-    .badge-bottom-left {
-      bottom: 20px;
-      left: -20px;
-      animation: floatSmooth 4s ease-in-out infinite alternate-reverse;
-    }
-
-    @keyframes floatSmooth {
-      0% { transform: translateY(0px); }
-      100% { transform: translateY(-8px); }
     }
 
     /* ABOUT ME & LANGUAGES */
@@ -787,13 +754,6 @@
               <img src="profile.jpeg" alt="Aye Mon San Portrait" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'500\' height=\'600\' viewBox=\'0 0 500 600\'><rect width=\'500\' height=\'600\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'24\' fill=\'%231E40AF\'>Aye Mon San</text></svg>';">
             </div>
           </div>
-
-          <div class="floating-badge badge-top-right">
-            <span>🎓</span> TEFL Certified
-          </div>
-          <div class="floating-badge badge-bottom-left">
-            <span>✨</span> English Educator
-          </div>
         </div>
       </div>
     </section>
@@ -804,7 +764,7 @@
       <div class="about-grid" style="margin-top: 20px;">
         <div>
           <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 20px; text-align: justify;">
-            I am a passionate English instructor and English Communication student with experience in online teaching, tutoring, and community education. I enjoy helping learners build confidence in English through engaging, student-centered lessons while promoting intercultural understanding and lifelong learning.
+            I am a passionate English instructor with two-year experience in online teaching, tutoring, and community education. I enjoy helping learners build confidence in English through engaging, student-centered lessons while promoting intercultural understanding and lifelong learning.
           </p>
         </div>
         
@@ -931,6 +891,7 @@
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Supporting Learning in Primary Education</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English to Refugees</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Supporting Children's Mental Health</div>
+        
       </div>
     </section>
 
