@@ -934,52 +934,105 @@
       </div>
     </section>
 
-    <!-- PORTFOLIO SHOWCASE GRID WITH FILTERING & MODAL SYSTEM -->
+   <!-- PORTFOLIO SHOWCASE GRID WITH FILTERING & MODAL SYSTEM -->
     <section class="content-section" id="portfolio">
       <h3 class="section-headline">Portfolio Showcase</h3>
-      <p style="color: var(--text-muted); margin-bottom: 25px;">Explore my teaching modules, media creations, and community projects below:</p>
+      <p style="color: var(--text-muted); margin-bottom: 25px;">Explore my teaching modules, class materials, and community projects below:</p>
       
       <!-- Filter Category Buttons -->
       <div class="portfolio-filters">
         <button class="filter-btn active" data-filter="all">All Projects</button>
         <button class="filter-btn" data-filter="teaching">Teaching & Classes</button>
-        <button class="filter-btn" data-filter="media">Media & Materials</button>
+        <button class="filter-btn" data-filter="volunteering">Volunteering & Projects</button>
       </div>
 
       <!-- Showcase Cards Grid -->
       <div class="portfolio-grid">
         
-        <!-- CARD 1 -->
+        <!-- CARD 1: Teaching & Classes -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
           <!-- REPLACE: Image Thumbnail -->
           <img src="1p.jpg" alt="Online Teaching Module" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Teaching+Class'">
           <div class="portfolio-overlay">
             <h4>Interactive English Modules</h4>
-            <p>Online Teaching • Video & Slides</p>
+            <p>Teaching & Classes • Video & Lesson Logs</p>
           </div>
         </div>
 
-        <!-- CARD 2 -->
-        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
+        <!-- CARD 2: Teaching & Classes -->
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
           <!-- REPLACE: Image Thumbnail -->
-          <img src="2p.jpg" alt="Educational Media Design" onerror="this.src='https://via.placeholder.com/400x300?text=Educational+Media'">
+          <img src="2p.jpg" alt="Poy English Program Delivery" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Program'">
           <div class="portfolio-overlay">
-            <h4>Educational Media Design</h4>
-            <p>Visual Design • Worksheets & Graphic Cards</p>
+            <h4>Poy English Program Delivery</h4>
+            <p>Teaching & Classes • Conversational Fluency</p>
           </div>
         </div>
 
-        <!-- CARD 3 -->
-        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p3')">
+        <!-- CARD 3: Volunteering & Projects -->
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p3')">
           <!-- REPLACE: Image Thumbnail -->
           <img src="3p.jpg" alt="Chiang Rai Kindergarten Volunteer" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteer+Workshops'">
           <div class="portfolio-overlay">
             <h4>Volunteer Language Workshops</h4>
-            <p>Chiang Rai Initiative • Primary Education</p>
+            <p>Volunteering & Projects • Chiang Rai Kindergarten</p>
           </div>
         </div>
 
       </div>
+    </section>
+
+    <!-- INTERACTIVE MODAL POPUPS -->
+    
+    <!-- Modal 1: Interactive English Modules -->
+    <div id="modal-p1" class="modal-overlay" onclick="closeModal('modal-p1')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p1')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Interactive English Modules</h3>
+        
+        <!-- REPLACE: Replace video src="1vp.mp4" with your video path or remove tag if image only -->
+        <video controls style="width: 100%; border-radius: 16px; background: #000; margin-bottom: 15px;">
+          <source src="1vp.mp4" type="video/mp4">
+          Your browser does not support video playback.
+        </video>
+        
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Designed engaging online modules focusing on practical everyday conversational English, vocabulary expansion, and student-centered pronunciation practices.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 2: Poy English Program Delivery -->
+    <div id="modal-p2" class="modal-overlay" onclick="closeModal('modal-p2')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p2')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Poy English Program Delivery</h3>
+        
+        <!-- REPLACE: Detailed Photo inside Modal -->
+        <img src="2p.jpg" alt="Poy English Program Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.src='https://via.placeholder.com/600x400?text=Poy+English+Program+Preview'">
+        
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Delivered inclusive online English lessons structured around communicative teaching methods, conversational fluency lesson designs, and tech-integrated assessments.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 3: Volunteer Language Workshops -->
+    <div id="modal-p3" class="modal-overlay" onclick="closeModal('modal-p3')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p3')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Volunteer Language Workshops</h3>
+        
+        <!-- REPLACE: Detailed Photo inside Modal -->
+        <img src="3p.jpg" alt="Chiang Rai Kindergarten Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.src='https://via.placeholder.com/600x400?text=Chiang+Rai+Volunteer+Preview'">
+
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Interactive educational games and storytelling sessions organized for young learners in Chiang Rai to encourage active participation and cultivate early foreign language confidence.
+        </p>
+      </div>
+    </div>
+
+    </div>
     </section>
 
     <!-- INTERACTIVE MODAL POPUPS -->
