@@ -1,4 +1,3 @@
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +6,8 @@
   <style>
     :root {
       --primary: #7209B7;           /* Deep Vibrant Violet */
-      --primary-light: #f1e6f9;     /* Soft Light Primary Tint */
+      --primary-light: #f4ebfc;     /* Soft Light Primary Tint */
+      --primary-gradient: linear-gradient(135deg, #7209B7 0%, #b5179e 100%);
       --text-dark: #101828;         /* Crisp Dark Text */
       --text-muted: #475467;        /* Soft Charcoal Secondary Text */
       --bg-outer: #D3D3D3;          /* Light Gray Canvas */
@@ -32,7 +32,7 @@
       padding: 40px 20px;
     }
 
-    /* Main Modern Canvas Wrapper */
+    /* Main Canvas Wrapper */
     .app-container {
       width: 100%;
       max-width: 1200px;
@@ -43,7 +43,7 @@
       position: relative;
     }
 
-    /* Sticky Navigation Bar */
+    /* Navigation Bar */
     nav {
       display: flex;
       justify-content: space-between;
@@ -66,15 +66,15 @@
     }
 
     .logo-icon {
-      background: var(--primary);
+      background: var(--primary-gradient);
       color: #fff;
-      width: 32px;
-      height: 32px;
+      width: 34px;
+      height: 34px;
       border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.75em;
+      font-size: 0.8em;
     }
 
     .logo span {
@@ -111,7 +111,7 @@
     }
 
     .btn-contact-nav {
-      background: var(--primary);
+      background: var(--primary-gradient);
       color: #fff;
       padding: 12px 28px;
       border-radius: 14px;
@@ -131,7 +131,6 @@
       border-bottom: none;
     }
 
-    /* Section Headline Styling */
     .section-headline {
       font-size: 2em;
       font-weight: 700;
@@ -168,7 +167,7 @@
     .accent-line {
       width: 50px;
       height: 4px;
-      background: var(--primary);
+      background: var(--primary-gradient);
       margin-bottom: 24px;
       border-radius: 2px;
     }
@@ -187,7 +186,7 @@
     }
 
     .hero-tagline {
-      font-size: 0.95em;
+      font-size: 0.9em;
       color: var(--primary);
       font-weight: 600;
       letter-spacing: 0.5px;
@@ -218,7 +217,7 @@
     }
 
     .btn-primary {
-      background: var(--primary);
+      background: var(--primary-gradient);
       color: #fff;
       box-shadow: 0 12px 24px rgba(114, 9, 183, 0.3);
     }
@@ -227,57 +226,108 @@
       background: #ffffff;
       color: var(--primary);
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
-      border: 1px solid rgba(0,0,0,0.08);
+      border: 1px solid rgba(114, 9, 183, 0.15);
     }
 
     .btn-primary:hover, .btn-secondary:hover {
       transform: translateY(-2px);
     }
 
+    /* ELEGANT FEMININE PORTRAIT FRAME DESIGN */
     .hero-visual {
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
-    .circle-wrapper {
+    .profile-frame-container {
       position: relative;
-      width: 400px;
-      height: 400px;
+      width: 340px;
+      height: 410px;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
-    .purple-ring {
+    /* Soft ambient background glow */
+    .glow-backdrop {
       position: absolute;
       width: 320px;
-      height: 320px;
-      border: 32px solid var(--primary);
-      border-radius: 50%;
-      box-shadow: 0 20px 40px rgba(114, 9, 183, 0.15);
-      z-index: 1;
-    }
-
-    .outer-ring-line {
-      position: absolute;
-      width: 380px;
       height: 380px;
-      border: 1px solid rgba(114, 9, 183, 0.2);
-      border-radius: 50%;
+      background: linear-gradient(135deg, rgba(114, 9, 183, 0.25), rgba(181, 23, 158, 0.15));
+      border-radius: 170px 170px 50px 50px;
+      filter: blur(20px);
       z-index: 0;
+      transform: translateY(10px);
     }
 
-    .avatar-img {
-      position: absolute;
-      z-index: 2;
-      border-radius: 50%;
-      clip-path: circle(50% at 50% 50%);
+    /* Gradient Arch Outer Border Frame */
+    .arch-gradient-frame {
+      position: relative;
+      z-index: 1;
+      width: 310px;
+      height: 380px;
+      border-radius: 160px 160px 40px 40px;
+      padding: 5px;
+      background: linear-gradient(135deg, #7209B7 0%, #f72585 100%);
+      box-shadow: 0 20px 40px rgba(114, 9, 183, 0.18);
+    }
+
+    /* Inner Photo Holder */
+    .photo-inner-card {
+      width: 100%;
+      height: 100%;
+      border-radius: 155px 160px 35px 35px;
+      overflow: hidden;
+      background: #f8f9fa;
+    }
+
+    .photo-inner-card img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      aspect-ratio: 1/1;
-      bottom: 55px;
-      width: 260px;
-      height: 260px;
+      object-position: top center;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .arch-gradient-frame:hover .photo-inner-card img {
+      transform: scale(1.03);
+    }
+
+    /* Floating Micro-Badges */
+    .floating-badge {
+      position: absolute;
+      z-index: 3;
+      background: #ffffff;
+      padding: 10px 18px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82em;
+      font-weight: 600;
+      color: var(--text-dark);
+      border: 1px solid rgba(114, 9, 183, 0.12);
+      backdrop-filter: blur(8px);
+    }
+
+    .badge-top-right {
+      top: 15px;
+      right: -15px;
+      animation: floatSmooth 4s ease-in-out infinite alternate;
+    }
+
+    .badge-bottom-left {
+      bottom: 20px;
+      left: -20px;
+      animation: floatSmooth 4s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes floatSmooth {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
     }
 
     /* ABOUT ME & LANGUAGES */
@@ -535,6 +585,14 @@
       .about-grid {
         grid-template-columns: 1fr;
       }
+      .profile-frame-container {
+        width: 290px;
+        height: 360px;
+      }
+      .arch-gradient-frame {
+        width: 270px;
+        height: 340px;
+      }
     }
   </style>
 </head>
@@ -578,11 +636,24 @@
         </div>
       </div>
 
+      <!-- UPGRADED ELEGANT PORTRAIT FRAME -->
       <div class="hero-visual">
-        <div class="circle-wrapper">
-          <div class="outer-ring-line"></div>
-          <div class="purple-ring"></div>
-          <img src="profile.jpeg" alt="Aye Mon San Portrait" class="avatar-img">
+        <div class="profile-frame-container">
+          <div class="glow-backdrop"></div>
+          
+          <div class="arch-gradient-frame">
+            <div class="photo-inner-card">
+              <img src="profile.jpeg" alt="Aye Mon San Portrait">
+            </div>
+          </div>
+
+          <!-- Decorative Professional Floating Badges -->
+          <div class="floating-badge badge-top-right">
+            <span>🎓</span> TEFL Certified
+          </div>
+          <div class="floating-badge badge-bottom-left">
+            <span>✨</span> English Educator
+          </div>
         </div>
       </div>
     </section>
