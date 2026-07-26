@@ -2,10 +2,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aye Mon San | Portfolio Website</title>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
   <style>
     :root {
       --primary: #7209B7;           /* Deep Vibrant Violet */
+      --primary-hover: #5c0796;
       --primary-light: #f4ebfc;     /* Soft Light Primary Tint */
       --primary-gradient: linear-gradient(135deg, #7209B7 0%, #b5179e 100%);
       --text-dark: #101828;         /* Crisp Dark Text */
@@ -13,6 +20,8 @@
       --bg-outer: #D3D3D3;          /* Light Gray Canvas */
       --card-bg: #ffffff;           /* Main Card Background */
       --border-color: #EAECF0;
+      --shadow-sm: 0 4px 15px rgba(114, 9, 183, 0.05);
+      --shadow-md: 0 10px 25px rgba(114, 9, 183, 0.15);
     }
 
     * {
@@ -121,9 +130,9 @@
       box-shadow: 0 10px 20px rgba(114, 9, 183, 0.25);
     }
 
-    /* Section Component Layout Container */
+    /* Section Containers */
     .content-section {
-      padding: 80px 0 40px 0;
+      padding: 70px 0 30px 0;
       border-bottom: 1px solid var(--border-color);
     }
 
@@ -151,7 +160,7 @@
       border-radius: 2px;
     }
 
-    /* HERO / HOME SECTION */
+    /* HERO SECTION */
     .hero-layout {
       display: grid;
       grid-template-columns: 1.1fr 0.9fr;
@@ -173,7 +182,7 @@
     }
 
     .hero-content h1 {
-      font-size: 3.4em;
+      font-size: 3.2em;
       font-weight: 700;
       color: var(--text-dark);
       line-height: 1.15;
@@ -233,7 +242,7 @@
       transform: translateY(-2px);
     }
 
-    /* ELEGANT FEMININE PORTRAIT FRAME DESIGN */
+    /* ELEGANT PORTRAIT FRAME */
     .hero-visual {
       display: flex;
       justify-content: center;
@@ -249,7 +258,6 @@
       align-items: center;
     }
 
-    /* Soft ambient background glow */
     .glow-backdrop {
       position: absolute;
       width: 320px;
@@ -261,7 +269,6 @@
       transform: translateY(10px);
     }
 
-    /* Gradient Arch Outer Border Frame */
     .arch-gradient-frame {
       position: relative;
       z-index: 1;
@@ -273,7 +280,6 @@
       box-shadow: 0 20px 40px rgba(114, 9, 183, 0.18);
     }
 
-    /* Inner Photo Holder */
     .photo-inner-card {
       width: 100%;
       height: 100%;
@@ -295,7 +301,6 @@
       transform: scale(1.03);
     }
 
-    /* Floating Micro-Badges */
     .floating-badge {
       position: absolute;
       z-index: 3;
@@ -310,7 +315,6 @@
       font-weight: 600;
       color: var(--text-dark);
       border: 1px solid rgba(114, 9, 183, 0.12);
-      backdrop-filter: blur(8px);
     }
 
     .badge-top-right {
@@ -359,7 +363,55 @@
       font-weight: 600;
     }
 
-    /* SKILLS & PILLS */
+    /* SKILLS & PROGRESS BARS */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+
+    .skills-category {
+      background: #f8fafc;
+      padding: 28px;
+      border-radius: 20px;
+      border: 1px solid var(--border-color);
+    }
+
+    .skills-category h4 {
+      font-size: 1.1em;
+      color: var(--text-dark);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .skill-item {
+      margin-bottom: 16px;
+    }
+
+    .skill-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6px;
+      font-size: 0.9em;
+      font-weight: 500;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--border-color);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 100%;
+      background: var(--primary-gradient);
+      border-radius: 4px;
+    }
+
     .skills-flex {
       display: flex;
       flex-wrap: wrap;
@@ -376,30 +428,6 @@
       font-weight: 500;
     }
 
-    .language-card {
-      background: #f8fafc;
-      border: 1px solid var(--border-color);
-      border-radius: 16px;
-      padding: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .language-card h4 {
-      color: var(--text-dark);
-      font-size: 1em;
-    }
-
-    .language-card span {
-      color: var(--primary);
-      font-weight: 600;
-      font-size: 0.85em;
-      background: var(--primary-light);
-      padding: 4px 12px;
-      border-radius: 12px;
-    }
-
     /* TIMELINES & GRIDS */
     .timeline-grid {
       display: grid;
@@ -413,7 +441,6 @@
       padding: 30px;
       border-radius: 24px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.01);
-      position: relative;
       transition: all 0.3s ease;
     }
 
@@ -458,21 +485,14 @@
       margin-bottom: 8px;
     }
 
-    /* PORTFOLIO & CERTIFICATIONS */
-    .portfolio-intro {
-      color: var(--text-muted);
-      margin-bottom: 30px;
-      max-width: 750px;
-      line-height: 1.6;
-    }
-
-    .portfolio-grid {
+    /* CERTIFICATIONS & ACHIEVEMENTS */
+    .cert-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 16px;
     }
 
-    .portfolio-item-card {
+    .cert-card {
       background: #f8fafc;
       border: 1px solid var(--border-color);
       padding: 20px;
@@ -486,22 +506,152 @@
       transition: all 0.2s;
     }
 
-    .portfolio-item-card:hover {
+    .cert-card:hover {
       border-color: var(--primary);
       background: var(--primary-light);
       color: var(--primary);
-      transform: scale(1.02);
     }
 
-    .portfolio-icon {
+    .cert-icon {
       background: #ffffff;
-      width: 32px;
-      height: 32px;
-      border-radius: 8px;
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
       box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+      color: var(--primary);
+    }
+
+    /* WIN MOE STYLE SHOWCASE GRID & FILTER SYSTEM */
+    .portfolio-filters {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 8px 22px;
+      border-radius: 25px;
+      font-weight: 500;
+      font-size: 0.9em;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--primary-gradient);
+      color: white;
+      border-color: transparent;
+      box-shadow: 0 6px 15px rgba(114, 9, 183, 0.2);
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .portfolio-item {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid var(--border-color);
+      aspect-ratio: 4 / 3;
+      background: #f8fafc;
+      transition: transform 0.3s ease;
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .portfolio-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .portfolio-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(16, 24, 40, 0.9) 10%, rgba(16, 24, 40, 0.2) 60%, transparent);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 22px;
+      color: white;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .portfolio-item:hover .portfolio-overlay {
+      opacity: 1;
+    }
+
+    .portfolio-overlay h4 {
+      font-size: 1.15em;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .portfolio-overlay p {
+      font-size: 0.85em;
+      opacity: 0.9;
+    }
+
+    /* MODAL POPUP ENGINE */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(16, 24, 40, 0.7);
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      padding: 20px;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-card {
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 35px;
+      width: 100%;
+      max-width: 650px;
+      position: relative;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+    }
+
+    .close-modal {
+      position: absolute;
+      top: 20px;
+      right: 25px;
+      font-size: 1.6em;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: color 0.2s;
+    }
+
+    .close-modal:hover {
+      color: var(--primary);
     }
 
     /* CONNECT WITH ME */
@@ -556,7 +706,7 @@
       color: var(--text-muted);
     }
 
-    /* Responsiveness */
+    /* RESPONSIVE LAYOUT */
     @media (max-width: 992px) {
       .app-container {
         padding: 30px;
@@ -585,14 +735,6 @@
       .about-grid {
         grid-template-columns: 1fr;
       }
-      .profile-frame-container {
-        width: 290px;
-        height: 360px;
-      }
-      .arch-gradient-frame {
-        width: 270px;
-        height: 340px;
-      }
     }
   </style>
 </head>
@@ -600,29 +742,27 @@
 
   <div class="app-container">
     
-    <!-- HEADER WEBSITE NAVIGATION -->
+    <!-- NAVIGATION BAR -->
     <nav>
       <div class="logo">
-        <div class="logo-icon">C</div>
-        instructor<span>.</span>
+        <div class="logo-icon">A</div>
+        Aye Mon San<span>.</span>
       </div>
       
       <ul class="nav-links">
         <li><a href="#about" class="active">About Me</a></li>
-        <li><a href="#languages">Languages</a></li>
         <li><a href="#qualifications">Qualifications</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#achievements">Achievements</a></li>
         <li><a href="#portfolio">Showcase</a></li>
       </ul>
 
       <a href="#connect" class="btn-contact-nav">Connect</a>
     </nav>
 
-    <!-- HERO / HOME -->
-    <section class="content-section hero-layout" id="home">
+    <!-- HERO SECTION -->
+    <section class="content-section hero-layout" id="home" style="padding-top: 0;">
       <div class="hero-content">
         <div class="accent-line"></div>
         <h1>I'm <span>Aye Mon San</span>,<br>an <span>English Instructor</span></h1>
@@ -636,18 +776,18 @@
         </div>
       </div>
 
-      <!-- UPGRADED ELEGANT PORTRAIT FRAME -->
+      <!-- PORTRAIT FRAME -->
       <div class="hero-visual">
         <div class="profile-frame-container">
           <div class="glow-backdrop"></div>
           
           <div class="arch-gradient-frame">
             <div class="photo-inner-card">
-              <img src="profile.jpeg" alt="Aye Mon San Portrait">
+              <!-- REPLACE: Your main portrait photo path -->
+              <img src="profile.jpeg" alt="Aye Mon San Portrait" onerror="this.src='https://via.placeholder.com/500x600?text=Aye+Mon+San'">
             </div>
           </div>
 
-          <!-- Decorative Professional Floating Badges -->
           <div class="floating-badge badge-top-right">
             <span>🎓</span> TEFL Certified
           </div>
@@ -658,7 +798,7 @@
       </div>
     </section>
 
-    <!-- 1. ABOUT ME -->
+    <!-- ABOUT ME -->
     <section class="content-section" id="about">
       <h3 class="section-headline">About Me</h3>
       <div class="about-grid" style="margin-top: 20px;">
@@ -677,34 +817,10 @@
       </div>
     </section>
 
-    <!-- 2. LANGUAGES -->
-    <section class="content-section" id="languages">
-      <h3 class="section-headline">Languages</h3>
-      <div class="timeline-grid" style="margin-top: 20px;">
-        <div class="language-card">
-          <h4>Mon</h4>
-          <span>Native / Primary</span>
-        </div>
-        <div class="language-card">
-          <h4>Burmese</h4>
-          <span>Native / Bilingual</span>
-        </div>
-        <div class="language-card">
-          <h4>English</h4>
-          <span>Professional / C1</span>
-        </div>
-        <div class="language-card">
-          <h4>Thai</h4>
-          <span>Conversational</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3. QUALIFICATIONS -->
+    <!-- QUALIFICATIONS -->
     <section class="content-section" id="qualifications">
       <h3 class="section-headline">Qualifications</h3>
       <div class="timeline-grid" style="margin-top: 20px;">
-        
         <div class="timeline-card">
           <span class="card-date-badge">2024 – Present</span>
           <h4 class="card-headline">B.A. in English Communication Arts</h4>
@@ -713,7 +829,7 @@
 
         <div class="timeline-card">
           <span class="card-date-badge">2021 – 2024</span>
-          <h4 class="card-headline">Associate Degree in Mass Media and Journalism</h4>
+          <h4 class="card-headline">Associate Degree in Mass Media & Journalism</h4>
           <p class="card-subheadline">Mon National College</p>
         </div>
 
@@ -722,22 +838,20 @@
           <h4 class="card-headline">B.A. in English</h4>
           <p class="card-subheadline">Hpa-An Distance University</p>
         </div>
-
       </div>
     </section>
 
-    <!-- 4. PROFESSIONAL EXPERIENCE -->
+    <!-- EXPERIENCE -->
     <section class="content-section" id="experience">
       <h3 class="section-headline">Professional Experience</h3>
       <div class="timeline-grid" style="margin-top: 20px;">
-        
         <div class="timeline-card">
           <span class="card-date-badge">2025 – 2026</span>
           <h4 class="card-headline">General English Teacher</h4>
           <p class="card-subheadline">Poy English Program (Online)</p>
           <ul class="card-bullet-list">
-            <li>Delivered engaging online English lessons in a supportive and inclusive learning environment.</li>
-            <li>Designed interactive lessons focusing on practical communication skills, grammar, vocabulary, and pronunciation.</li>
+            <li>Delivered engaging online English lessons in a supportive learning environment.</li>
+            <li>Designed interactive lessons focusing on practical communication, grammar, and pronunciation.</li>
           </ul>
         </div>
 
@@ -746,8 +860,8 @@
           <h4 class="card-headline">Freelance English Tutor</h4>
           <p class="card-subheadline">Online Marketplace</p>
           <ul class="card-bullet-list">
-            <li>Delivered personalized one-on-one and small-group English lessons to learners from diverse cultural backgrounds.</li>
-            <li>Helped students improve speaking fluency, pronunciation, vocabulary, and grammar through interactive learning activities.</li>
+            <li>Delivered personalized one-on-one and small-group English lessons to diverse learners.</li>
+            <li>Helped students improve speaking fluency, pronunciation, and vocabulary.</li>
           </ul>
         </div>
 
@@ -756,96 +870,166 @@
           <h4 class="card-headline">Volunteer Teacher</h4>
           <p class="card-subheadline">Chiang Rai Kindergarten</p>
           <ul class="card-bullet-list">
-            <li>Assisted teachers in classroom activities and supported English learning through interactive games and creative lessons.</li>
-            <li>Organized educational games and activities to encourage student participation and active learning.</li>
+            <li>Supported English learning through interactive games and creative lessons.</li>
+            <li>Organized educational activities to encourage active student participation.</li>
           </ul>
         </div>
-
-        <div class="timeline-card">
-          <span class="card-date-badge">Nov 2018 – Jan 2019</span>
-          <h4 class="card-headline">Accountant</h4>
-          <p class="card-subheadline">Nay La Kabar Co., Ltd.</p>
-          <ul class="card-bullet-list">
-            <li>Recorded daily financial transactions and prepared accurate financial reports.</li>
-            <li>Reconciled accounts, verified invoices, and maintained accurate financial records.</li>
-          </ul>
-        </div>
-
       </div>
     </section>
 
-    <!-- 5. SKILLS -->
+    <!-- SKILLS & LANGUAGES -->
     <section class="content-section" id="skills">
-      <h3 class="section-headline">Skills</h3>
-      <div class="skills-flex" style="margin-top: 10px;">
-        <span class="skill-pill">Classroom Management</span>
-        <span class="skill-pill">Lesson Planning</span>
-        <span class="skill-pill">English Language Instruction</span>
-        <span class="skill-pill">Public Speaking</span>
-        <span class="skill-pill">Cross-cultural Communication</span>
-        <span class="skill-pill">Active Listening</span>
-        <span class="skill-pill">Adaptability</span>
-        <span class="skill-pill">Curriculum Development</span>
-        <span class="skill-pill">Student Assessment</span>
-        <span class="skill-pill">Online Teaching Tools</span>
+      <h3 class="section-headline">Skills & Languages</h3>
+      
+      <div class="skills-grid" style="margin-top: 20px;">
+        <!-- Languages with Win Moe progress bars -->
+        <div class="skills-category">
+          <h4><i class="fa-solid fa-globe" style="color: var(--primary);"></i> Language Proficiency</h4>
+          
+          <div class="skill-item">
+            <div class="skill-info"><span>Mon</span><span>Native</span></div>
+            <div class="progress-bar"><div class="progress" style="width: 100%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Burmese</span><span>Bilingual</span></div>
+            <div class="progress-bar"><div class="progress" style="width: 100%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>English</span><span>C1 / Professional</span></div>
+            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Thai</span><span>Conversational</span></div>
+            <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Instructional Skills -->
+        <div class="skills-category">
+          <h4><i class="fa-solid fa-chalkboard-user" style="color: var(--primary);"></i> Pedagogical Expertise</h4>
+          <div class="skills-flex">
+            <span class="skill-pill">Classroom Management</span>
+            <span class="skill-pill">Lesson Planning</span>
+            <span class="skill-pill">Curriculum Design</span>
+            <span class="skill-pill">Public Speaking</span>
+            <span class="skill-pill">Cross-Cultural Communication</span>
+            <span class="skill-pill">Active Listening</span>
+            <span class="skill-pill">Online Teaching Tools</span>
+            <span class="skill-pill">Student Assessment</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- 6. CERTIFICATIONS -->
+    <!-- CERTIFICATIONS -->
     <section class="content-section" id="certifications">
       <h3 class="section-headline">Certifications</h3>
-      <div class="portfolio-grid" style="margin-top: 20px;">
-        <div class="portfolio-item-card"><div class="portfolio-icon">🎓</div> TEFL Certification</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> English for Career Development</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching English in Primary Education</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Supporting Learning in Primary Education</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching English to Refugees and Displaced Learners</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Supporting Children's Mental Health</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Gender in Language Education</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Teaching Pronunciation and Listening Skills</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">📜</div> Understanding English Language Systems</div>
+      <div class="cert-grid" style="margin-top: 20px;">
+        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div> TEFL Certification</div>
+        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> English for Career Development</div>
+        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English in Primary Education</div>
+        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Supporting Learning in Primary Education</div>
+        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English to Refugees</div>
+        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Supporting Children's Mental Health</div>
       </div>
     </section>
 
-    <!-- 7. ACHIEVEMENTS & AWARDS -->
-    <section class="content-section" id="achievements">
-      <h3 class="section-headline">Achievements & Awards</h3>
-      <div class="portfolio-grid" style="margin-top: 20px;">
-        <div class="portfolio-item-card"><div class="portfolio-icon">💼</div> Business Knowledge Sharing Workshop</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">💼</div> Career Planning and Job Search</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">🏫</div> Mon Intensive English Program</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">🏫</div> General English – Elementary Level</div>
-        <div class="portfolio-item-card"><div class="portfolio-icon">🎓</div> High School Certificate</div>
-      </div>
-    </section>
-
-    <!-- 8. PORTFOLIO SHOWCASE -->
+    <!-- PORTFOLIO SHOWCASE GRID WITH FILTERING & MODAL SYSTEM -->
     <section class="content-section" id="portfolio">
       <h3 class="section-headline">Portfolio Showcase</h3>
-      <p class="portfolio-intro">Highlights of teaching media, lesson plans, workshops, and educational projects:</p>
+      <p style="color: var(--text-muted); margin-bottom: 25px;">Explore my teaching modules, media creations, and community projects below:</p>
       
-      <div class="timeline-grid" style="margin-top: 20px;">
-        <div class="timeline-card">
-          <span class="card-date-badge">Lesson Material</span>
-          <h4 class="card-headline">Interactive English Modules</h4>
-          <p class="card-subheadline">Curriculum & Course Design</p>
-          <p style="color: var(--text-muted); font-size: 0.9em; line-height: 1.6;">
-            Engaging modules designed for online teaching focused on everyday conversational English and active student participation.
-          </p>
+      <!-- Filter Category Buttons -->
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="teaching">Teaching & Classes</button>
+        <button class="filter-btn" data-filter="media">Media & Materials</button>
+      </div>
+
+      <!-- Showcase Cards Grid -->
+      <div class="portfolio-grid">
+        
+        <!-- CARD 1 -->
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
+          <!-- REPLACE: Image Thumbnail -->
+          <img src="1p.jpg" alt="Online Teaching Module" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Teaching+Class'">
+          <div class="portfolio-overlay">
+            <h4>Interactive English Modules</h4>
+            <p>Online Teaching • Video & Slides</p>
+          </div>
         </div>
 
-        <div class="timeline-card">
-          <span class="card-date-badge">Community Project</span>
-          <h4 class="card-headline">Volunteer Language Workshops</h4>
-          <p class="card-subheadline">Chiang Rai Education Initiative</p>
-          <p style="color: var(--text-muted); font-size: 0.9em; line-height: 1.6;">
-            Interactive games and story-telling sessions organized for primary learners to cultivate interest in foreign language acquisition.
-          </p>
+        <!-- CARD 2 -->
+        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
+          <!-- REPLACE: Image Thumbnail -->
+          <img src="2p.jpg" alt="Educational Media Design" onerror="this.src='https://via.placeholder.com/400x300?text=Educational+Media'">
+          <div class="portfolio-overlay">
+            <h4>Educational Media Design</h4>
+            <p>Visual Design • Worksheets & Graphic Cards</p>
+          </div>
         </div>
+
+        <!-- CARD 3 -->
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p3')">
+          <!-- REPLACE: Image Thumbnail -->
+          <img src="3p.jpg" alt="Chiang Rai Kindergarten Volunteer" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteer+Workshops'">
+          <div class="portfolio-overlay">
+            <h4>Volunteer Language Workshops</h4>
+            <p>Chiang Rai Initiative • Primary Education</p>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <!-- 9. CONNECT WITH ME -->
+    <!-- INTERACTIVE MODAL POPUPS -->
+    
+    <!-- Modal 1: Online Class Video / Details -->
+    <div id="modal-p1" class="modal-overlay" onclick="closeModal('modal-p1')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p1')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Interactive English Modules</h3>
+        
+        <!-- REPLACE: Replace video src="1vp.mp4" with your video path or delete tag if only image -->
+        <video controls style="width: 100%; border-radius: 16px; background: #000; margin-bottom: 15px;">
+          <source src="1vp.mp4" type="video/mp4">
+          Your browser does not support video playback.
+        </video>
+        
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Designed engaging online modules focusing on practical everyday conversational English, vocabulary expansion, and student-centered pronunciation practices.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 2: Visual Media -->
+    <div id="modal-p2" class="modal-overlay" onclick="closeModal('modal-p2')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p2')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Educational Media Design</h3>
+        
+        <!-- REPLACE: Detailed Photo inside Modal -->
+        <img src="2p.jpg" alt="Educational Media Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.src='https://via.placeholder.com/600x400?text=Educational+Media+Preview'">
+        
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Curated visual learning resources and interactive flashcards aimed at helping non-native speakers quickly grasp complex grammar structures.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 3: Workshop Details -->
+    <div id="modal-p3" class="modal-overlay" onclick="closeModal('modal-p3')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p3')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Volunteer Language Workshops</h3>
+        
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Interactive educational games and storytelling sessions organized for young learners in Chiang Rai to encourage active participation and early foreign language interest.
+        </p>
+      </div>
+    </div>
+
+    <!-- CONNECT WITH ME -->
     <section class="content-section" id="connect">
       <h3 class="section-headline">Connect with Me</h3>
       <div class="contact-grid" style="margin-top: 20px;">
@@ -876,7 +1060,9 @@
 
   </div>
 
+  <!-- JAVASCRIPT ENGINE FOR FILTERING & MODALS -->
   <script>
+    // Navigation active highlights
     const links = document.querySelectorAll('.nav-links a');
     links.forEach(link => {
       link.addEventListener('click', function() {
@@ -884,4 +1070,38 @@
         this.classList.add('active');
       });
     });
+
+    // Portfolio Filtering
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        const filterValue = button.getAttribute('data-filter');
+
+        portfolioItems.forEach(item => {
+          if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Modal Opening & Auto-pause Video Engine
+    function openModal(id) {
+      document.getElementById(id).classList.add("active");
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).classList.remove("active");
+      const video = document.querySelector(`#${id} video`);
+      if (video) {
+        video.pause();
+      }
+    }
   </script>
