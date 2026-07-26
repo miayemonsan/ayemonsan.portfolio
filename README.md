@@ -1,3 +1,4 @@
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +12,17 @@
   
   <style>
     :root {
-      --primary: #7209B7;           /* Deep Vibrant Violet */
-      --primary-hover: #5c0796;
-      --primary-light: #f4ebfc;     /* Soft Light Primary Tint */
-      --primary-gradient: linear-gradient(135deg, #7209B7 0%, #b5179e 100%);
+      --primary: #1E40AF;           /* Professional Royal Blue */
+      --primary-hover: #1D4ED8;
+      --primary-light: #EFF6FF;     /* Soft Light Blue Tint */
+      --primary-gradient: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);
       --text-dark: #101828;         /* Crisp Dark Text */
       --text-muted: #475467;        /* Soft Charcoal Secondary Text */
       --bg-outer: #D3D3D3;          /* Light Gray Canvas */
       --card-bg: #ffffff;           /* Main Card Background */
       --border-color: #EAECF0;
-      --shadow-sm: 0 4px 15px rgba(114, 9, 183, 0.05);
-      --shadow-md: 0 10px 25px rgba(114, 9, 183, 0.15);
+      --shadow-sm: 0 4px 15px rgba(30, 64, 175, 0.05);
+      --shadow-md: 0 10px 25px rgba(30, 64, 175, 0.15);
     }
 
     * {
@@ -52,7 +53,7 @@
       position: relative;
     }
 
-    /* Navigation Bar */
+    /* Sticky Navigation Bar */
     nav {
       display: flex;
       justify-content: space-between;
@@ -127,7 +128,7 @@
       font-weight: 500;
       text-decoration: none;
       font-size: 0.9em;
-      box-shadow: 0 10px 20px rgba(114, 9, 183, 0.25);
+      box-shadow: 0 10px 20px rgba(30, 64, 175, 0.25);
     }
 
     /* Section Containers */
@@ -228,14 +229,14 @@
     .btn-primary {
       background: var(--primary-gradient);
       color: #fff;
-      box-shadow: 0 12px 24px rgba(114, 9, 183, 0.3);
+      box-shadow: 0 12px 24px rgba(30, 64, 175, 0.3);
     }
 
     .btn-secondary {
       background: #ffffff;
       color: var(--primary);
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
-      border: 1px solid rgba(114, 9, 183, 0.15);
+      border: 1px solid rgba(30, 64, 175, 0.15);
     }
 
     .btn-primary:hover, .btn-secondary:hover {
@@ -262,7 +263,7 @@
       position: absolute;
       width: 320px;
       height: 380px;
-      background: linear-gradient(135deg, rgba(114, 9, 183, 0.25), rgba(181, 23, 158, 0.15));
+      background: linear-gradient(135deg, rgba(30, 64, 175, 0.25), rgba(59, 130, 246, 0.15));
       border-radius: 170px 170px 50px 50px;
       filter: blur(20px);
       z-index: 0;
@@ -276,8 +277,8 @@
       height: 380px;
       border-radius: 160px 160px 40px 40px;
       padding: 5px;
-      background: linear-gradient(135deg, #7209B7 0%, #f72585 100%);
-      box-shadow: 0 20px 40px rgba(114, 9, 183, 0.18);
+      background: linear-gradient(135deg, #1E40AF 0%, #06B6D4 100%);
+      box-shadow: 0 20px 40px rgba(30, 64, 175, 0.18);
     }
 
     .photo-inner-card {
@@ -314,7 +315,7 @@
       font-size: 0.82em;
       font-weight: 600;
       color: var(--text-dark);
-      border: 1px solid rgba(114, 9, 183, 0.12);
+      border: 1px solid rgba(30, 64, 175, 0.12);
     }
 
     .badge-top-right {
@@ -447,7 +448,7 @@
     .timeline-card:hover {
       transform: translateY(-5px);
       border-color: var(--primary);
-      box-shadow: 0 15px 30px rgba(114, 9, 183, 0.08);
+      box-shadow: 0 15px 30px rgba(30, 64, 175, 0.08);
     }
 
     .card-date-badge {
@@ -524,7 +525,7 @@
       color: var(--primary);
     }
 
-    /* WIN MOE STYLE SHOWCASE GRID & FILTER SYSTEM */
+    /* SHOWCASE GRID & FILTER SYSTEM */
     .portfolio-filters {
       display: flex;
       justify-content: center;
@@ -549,7 +550,7 @@
       background: var(--primary-gradient);
       color: white;
       border-color: transparent;
-      box-shadow: 0 6px 15px rgba(114, 9, 183, 0.2);
+      box-shadow: 0 6px 15px rgba(30, 64, 175, 0.2);
     }
 
     .portfolio-grid {
@@ -677,7 +678,7 @@
     .contact-card:hover {
       border-color: var(--primary);
       transform: translateY(-3px);
-      box-shadow: 0 10px 20px rgba(114, 9, 183, 0.05);
+      box-shadow: 0 10px 20px rgba(30, 64, 175, 0.05);
     }
 
     .contact-card .icon {
@@ -783,8 +784,7 @@
           
           <div class="arch-gradient-frame">
             <div class="photo-inner-card">
-              <!-- REPLACE: Your main portrait photo path -->
-              <img src="profile.jpeg" alt="Aye Mon San Portrait" onerror="this.src='https://via.placeholder.com/500x600?text=Aye+Mon+San'">
+              <img src="profile.jpeg" alt="Aye Mon San Portrait" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'500\' height=\'600\' viewBox=\'0 0 500 600\'><rect width=\'500\' height=\'600\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'24\' fill=\'%231E40AF\'>Aye Mon San</text></svg>';">
             </div>
           </div>
 
@@ -882,7 +882,7 @@
       <h3 class="section-headline">Skills & Languages</h3>
       
       <div class="skills-grid" style="margin-top: 20px;">
-        <!-- Languages with Win Moe progress bars -->
+        <!-- Languages Proficiency -->
         <div class="skills-category">
           <h4><i class="fa-solid fa-globe" style="color: var(--primary);"></i> Language Proficiency</h4>
           
@@ -934,7 +934,7 @@
       </div>
     </section>
 
-   <!-- PORTFOLIO SHOWCASE GRID WITH FILTERING & MODAL SYSTEM -->
+    <!-- PORTFOLIO SHOWCASE -->
     <section class="content-section" id="portfolio">
       <h3 class="section-headline">Portfolio Showcase</h3>
       <p style="color: var(--text-muted); margin-bottom: 25px;">Explore my teaching modules, class materials, and community projects below:</p>
@@ -949,30 +949,27 @@
       <!-- Showcase Cards Grid -->
       <div class="portfolio-grid">
         
-        <!-- CARD 1: Teaching & Classes -->
+        <!-- CARD 1 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
-          <!-- REPLACE: Image Thumbnail -->
-          <img src="1p.jpg" alt="Online Teaching Module" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Teaching+Class'">
+          <img src="1p.jpg" alt="Online Teaching Module" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Interactive English Modules</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Interactive English Modules</h4>
             <p>Teaching & Classes • Video & Lesson Logs</p>
           </div>
         </div>
 
-        <!-- CARD 2: Teaching & Classes -->
+        <!-- CARD 2 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
-          <!-- REPLACE: Image Thumbnail -->
-          <img src="2p.jpg" alt="Poy English Program Delivery" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Program'">
+          <img src="2p.jpg" alt="Poy English Program Delivery" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Poy English Program</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Poy English Program Delivery</h4>
             <p>Teaching & Classes • Conversational Fluency</p>
           </div>
         </div>
 
-        <!-- CARD 3: Volunteering & Projects -->
+        <!-- CARD 3 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p3')">
-          <!-- REPLACE: Image Thumbnail -->
-          <img src="3p.jpg" alt="Chiang Rai Kindergarten Volunteer" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteer+Workshops'">
+          <img src="3p.jpg" alt="Chiang Rai Kindergarten Volunteer" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Volunteer Language Workshops</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Volunteer Language Workshops</h4>
             <p>Volunteering & Projects • Chiang Rai Kindergarten</p>
@@ -982,18 +979,15 @@
       </div>
     </section>
 
-    <!-- INTERACTIVE MODAL POPUPS -->
-    
-    <!-- Modal 1: Interactive English Modules -->
+    <!-- MODAL POPUPS -->
     <div id="modal-p1" class="modal-overlay" onclick="closeModal('modal-p1')">
       <div class="modal-card" onclick="event.stopPropagation()">
         <span class="close-modal" onclick="closeModal('modal-p1')">&times;</span>
         <h3 style="margin-bottom: 15px; color: var(--text-dark);">Interactive English Modules</h3>
         
-        <!-- REPLACE: Replace video src="1vp.mp4" with your video path or remove tag if image only -->
         <video controls style="width: 100%; border-radius: 16px; background: #000; margin-bottom: 15px;">
           <source src="1vp.mp4" type="video/mp4">
-          Your browser does not support video playback.
+          Your browser does not support HTML video playback.
         </video>
         
         <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
@@ -1002,14 +996,12 @@
       </div>
     </div>
 
-    <!-- Modal 2: Poy English Program Delivery -->
     <div id="modal-p2" class="modal-overlay" onclick="closeModal('modal-p2')">
       <div class="modal-card" onclick="event.stopPropagation()">
         <span class="close-modal" onclick="closeModal('modal-p2')">&times;</span>
         <h3 style="margin-bottom: 15px; color: var(--text-dark);">Poy English Program Delivery</h3>
         
-        <!-- REPLACE: Detailed Photo inside Modal -->
-        <img src="2p.jpg" alt="Poy English Program Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.src='https://via.placeholder.com/600x400?text=Poy+English+Program+Preview'">
+        <img src="2p.jpg" alt="Poy English Program Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'600\' height=\'400\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'20\' fill=\'%231E40AF\'>Poy English Program Preview</text></svg>';">
         
         <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
           Delivered inclusive online English lessons structured around communicative teaching methods, conversational fluency lesson designs, and tech-integrated assessments.
@@ -1017,67 +1009,15 @@
       </div>
     </div>
 
-    <!-- Modal 3: Volunteer Language Workshops -->
     <div id="modal-p3" class="modal-overlay" onclick="closeModal('modal-p3')">
       <div class="modal-card" onclick="event.stopPropagation()">
         <span class="close-modal" onclick="closeModal('modal-p3')">&times;</span>
         <h3 style="margin-bottom: 15px; color: var(--text-dark);">Volunteer Language Workshops</h3>
         
-        <!-- REPLACE: Detailed Photo inside Modal -->
-        <img src="3p.jpg" alt="Chiang Rai Kindergarten Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.src='https://via.placeholder.com/600x400?text=Chiang+Rai+Volunteer+Preview'">
+        <img src="3p.jpg" alt="Chiang Rai Kindergarten Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'600\' height=\'400\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'20\' fill=\'%231E40AF\'>Chiang Rai Volunteer Preview</text></svg>';">
 
         <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
           Interactive educational games and storytelling sessions organized for young learners in Chiang Rai to encourage active participation and cultivate early foreign language confidence.
-        </p>
-      </div>
-    </div>
-
-    </div>
-    </section>
-
-    <!-- INTERACTIVE MODAL POPUPS -->
-    
-    <!-- Modal 1: Online Class Video / Details -->
-    <div id="modal-p1" class="modal-overlay" onclick="closeModal('modal-p1')">
-      <div class="modal-card" onclick="event.stopPropagation()">
-        <span class="close-modal" onclick="closeModal('modal-p1')">&times;</span>
-        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Interactive English Modules</h3>
-        
-        <!-- REPLACE: Replace video src="1vp.mp4" with your video path or delete tag if only image -->
-        <video controls style="width: 100%; border-radius: 16px; background: #000; margin-bottom: 15px;">
-          <source src="1vp.mp4" type="video/mp4">
-          Your browser does not support video playback.
-        </video>
-        
-        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
-          Designed engaging online modules focusing on practical everyday conversational English, vocabulary expansion, and student-centered pronunciation practices.
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 2: Visual Media -->
-    <div id="modal-p2" class="modal-overlay" onclick="closeModal('modal-p2')">
-      <div class="modal-card" onclick="event.stopPropagation()">
-        <span class="close-modal" onclick="closeModal('modal-p2')">&times;</span>
-        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Educational Media Design</h3>
-        
-        <!-- REPLACE: Detailed Photo inside Modal -->
-        <img src="2p.jpg" alt="Educational Media Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.src='https://via.placeholder.com/600x400?text=Educational+Media+Preview'">
-        
-        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
-          Curated visual learning resources and interactive flashcards aimed at helping non-native speakers quickly grasp complex grammar structures.
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 3: Workshop Details -->
-    <div id="modal-p3" class="modal-overlay" onclick="closeModal('modal-p3')">
-      <div class="modal-card" onclick="event.stopPropagation()">
-        <span class="close-modal" onclick="closeModal('modal-p3')">&times;</span>
-        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Volunteer Language Workshops</h3>
-        
-        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
-          Interactive educational games and storytelling sessions organized for young learners in Chiang Rai to encourage active participation and early foreign language interest.
         </p>
       </div>
     </div>
@@ -1145,16 +1085,18 @@
       });
     });
 
-    // Modal Opening & Auto-pause Video Engine
+    // Modal Opening & Video Handler
     function openModal(id) {
-      document.getElementById(id).classList.add("active");
+      const modal = document.getElementById(id);
+      if (modal) modal.classList.add("active");
     }
 
     function closeModal(id) {
-      document.getElementById(id).classList.remove("active");
-      const video = document.querySelector(`#${id} video`);
-      if (video) {
-        video.pause();
+      const modal = document.getElementById(id);
+      if (modal) {
+        modal.classList.remove("active");
+        const video = modal.querySelector('video');
+        if (video) video.pause();
       }
     }
   </script>
