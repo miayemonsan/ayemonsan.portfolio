@@ -1,7 +1,6 @@
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1200, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aye Mon San | Portfolio Website</title>
   
   <!-- Font Awesome Icons -->
@@ -208,39 +207,49 @@
       color: var(--text-muted);
       font-size: 1.05em;
       line-height: 1.6;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
-    .cta-group {
+    /* NEW LINK ACTION BUTTONS SECTION */
+    .hero-links-group {
       display: flex;
-      gap: 20px;
+      flex-wrap: wrap;
+      gap: 15px;
+      align-items: center;
     }
 
-    .btn-primary, .btn-secondary {
-      padding: 16px 36px;
-      border-radius: 16px;
+    .action-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 24px;
+      border-radius: 14px;
       font-weight: 600;
+      font-size: 0.9em;
       text-decoration: none;
-      font-size: 0.95em;
-      transition: transform 0.2s, box-shadow 0.2s;
-      display: inline-block;
+      transition: all 0.25s ease;
     }
 
-    .btn-primary {
+    .action-link-primary {
       background: var(--primary-gradient);
-      color: #fff;
-      box-shadow: 0 12px 24px rgba(30, 64, 175, 0.3);
+      color: #ffffff;
+      box-shadow: 0 8px 20px rgba(30, 64, 175, 0.25);
     }
 
-    .btn-secondary {
+    .action-link-outline {
       background: #ffffff;
       color: var(--primary);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
-      border: 1px solid rgba(30, 64, 175, 0.15);
+      border: 1px solid rgba(30, 64, 175, 0.25);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
     }
 
-    .btn-primary:hover, .btn-secondary:hover {
+    .action-link:hover {
       transform: translateY(-2px);
+    }
+
+    .action-link-outline:hover {
+      background: var(--primary-light);
+      border-color: var(--primary);
     }
 
     /* ELEGANT PORTRAIT FRAME */
@@ -697,7 +706,7 @@
         order: 1;
         margin-bottom: 20px;
       }
-      .cta-group {
+      .hero-links-group {
         justify-content: center;
       }
       .about-grid {
@@ -738,9 +747,23 @@
         <p>
           Passionate about creating inclusive and engaging learning environments where students can develop strong English communication skills while building cultural awareness and confidence.
         </p>
-        <div class="cta-group">
-          <a href="#connect" class="btn-primary">Connect with Me</a>
-          <a href="#portfolio" class="btn-secondary">Portfolio Showcase</a>
+        
+        <!-- NEW QUICK LINKS SECTION (Replaces old button boxes) -->
+        <div class="hero-links-group">
+          <!-- CV / Resume Link (REPLACE href="cv.pdf" with your file path or link) -->
+          <a href="cv.pdf" target="_blank" class="action-link action-link-outline">
+            <i class="fa-solid fa-file-pdf"></i> CV / Resume
+          </a>
+
+          <!-- LinkedIn Link (REPLACE with your actual LinkedIn profile URL) -->
+          <a href="https://linkedin.com" target="_blank" class="action-link action-link-outline">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+
+          <!-- Connect with Me smooth scroll button -->
+          <a href="#connect" class="action-link action-link-primary">
+            <i class="fa-solid fa-paper-plane"></i> Connect With Me
+          </a>
         </div>
       </div>
 
@@ -891,7 +914,6 @@
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Supporting Learning in Primary Education</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English to Refugees</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Supporting Children's Mental Health</div>
-        
       </div>
     </section>
 
