@@ -935,7 +935,7 @@
         <!-- TEACHING & CLASSES (p1 to p7) -->
         <!-- CARD 1 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
-          <img src="p1.JPG.jpg" alt="Interactive English Modules" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Interactive English Modules</text></svg>';">
+          <img src="T1.jpg" alt="Interactive English Modules" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Interactive English Modules</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Interactive English Modules</h4>
             <p>Teaching & Classes • Lesson Materials</p>
@@ -944,7 +944,7 @@
 
         <!-- CARD 2 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
-          <img src="p2.JPG.jpg" alt="Poy English Program Delivery" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Poy English Program</text></svg>';">
+          <img src="T2.jpg" alt="Poy English Program Delivery" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Poy English Program</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Poy English Program Delivery</h4>
             <p>Teaching & Classes • Online Instruction</p>
@@ -953,7 +953,7 @@
 
         <!-- CARD 3 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p3')">
-          <img src="p3.JPG.jpg" alt="Conversational Practice Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Conversational Practice</text></svg>';">
+          <img src="T3.jpg" alt="Conversational Practice Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Conversational Practice</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Conversational Practice Sessions</h4>
             <p>Teaching & Classes • Group Tutoring</p>
@@ -962,7 +962,7 @@
 
         <!-- CARD 4 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
-          <img src="p4.JPG.jpg" alt="Grammar & Vocabulary Builder" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Grammar & Vocabulary</text></svg>';">
+          <img src="T4.jpg" alt="Grammar & Vocabulary Builder" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Grammar & Vocabulary</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Grammar & Vocabulary Builder</h4>
             <p>Teaching & Classes • Interactive Slides</p>
@@ -971,7 +971,7 @@
 
         <!-- CARD 5 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p5')">
-          <img src="p5.JPG.jpg" alt="Student Assessment & Feedback" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Assessment & Feedback</text></svg>';">
+          <img src="T5.jpg" alt="Student Assessment & Feedback" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Assessment & Feedback</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Student Assessment & Feedback</h4>
             <p>Teaching & Classes • Progress Evaluation</p>
@@ -980,7 +980,7 @@
 
         <!-- CARD 6 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p6')">
-          <img src="p6.JPG.png" alt="Pronunciation & Listening Systems" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Pronunciation Practice</text></svg>';">
+          <img src="T6.png" alt="Pronunciation & Listening Systems" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Pronunciation Practice</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Pronunciation & Listening Systems</h4>
             <p>Teaching & Classes • Audio-Visual Media</p>
@@ -989,7 +989,7 @@
 
         <!-- CARD 7 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p7')">
-          <img src="p7.JPG.png" alt="Curriculum & Course Outline" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Curriculum Design</text></svg>';">
+          <img src="T7.png" alt="Curriculum & Course Outline" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Curriculum Design</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Curriculum & Course Planning</h4>
             <p>Teaching & Classes • Lesson Frameworks</p>
@@ -1000,7 +1000,7 @@
         <!-- VOLUNTEERING & PROJECTS (p8 to p13) -->
         <!-- CARD 8 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p8')">
-          <img src="p8.JPG.JPG" alt="Chiang Rai Volunteer Teaching" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Kindergarten Volunteering</text></svg>';">
+          <img src="V1.JPG" alt="Chiang Rai Volunteer Teaching" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Kindergarten Volunteering</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Chiang Rai Kindergarten Project</h4>
             <p>Volunteering & Projects • Early Childhood</p>
@@ -1009,7 +1009,7 @@
 
         <!-- CARD 9 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p9')">
-          <img src="p9.JPG.JPG" alt="Interactive Classroom Activities" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Classroom Activities</text></svg>';">
+          <img src="V10.JPG" alt="Interactive Classroom Activities" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Classroom Activities</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Interactive Classroom Activities</h4>
             <p>Volunteering & Projects • Group Engagement</p>
@@ -1018,7 +1018,7 @@
 
         <!-- CARD 10 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p10')">
-          <img src="p10.JPG.JPG" alt="Educational Games & Storytelling" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Educational Games</text></svg>';">
+          <img src="V11.jpg" alt="Educational Games & Storytelling" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Educational Games</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Educational Games & Storytelling</h4>
             <p>Volunteering & Projects • Active Learning</p>
@@ -1027,7 +1027,7 @@
 
         <!-- CARD 11 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p11')">
-          <img src="p11.JPG.jpg" alt="Community Outreach & Workshops" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Community Outreach</text></svg>';">
+          <img src="V12.JPG" alt="Community Outreach & Workshops" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Community Outreach</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Community Outreach & Workshops</h4>
             <p>Volunteering & Projects • Educational Support</p>
@@ -1036,7 +1036,7 @@
 
         <!-- CARD 12 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p12')">
-          <img src="p12.JPG.JPG" alt="Outdoor & Experiential Learning" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Outdoor Learning</text></svg>';">
+          <img src="V13.jpg" alt="Outdoor & Experiential Learning" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Outdoor Learning</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Outdoor & Experiential Learning</h4>
             <p>Volunteering & Projects • Nature Activities</p>
@@ -1045,7 +1045,7 @@
 
         <!-- CARD 13 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p13')">
-          <img src="p13.JPG.jpg" alt="Cultural Exchange Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Cultural Exchange</text></svg>';">
+          <img src="V9.JPG" alt="Cultural Exchange Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Cultural Exchange</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Cultural Exchange Sessions</h4>
             <p>Volunteering & Projects • Intercultural Learning</p>
