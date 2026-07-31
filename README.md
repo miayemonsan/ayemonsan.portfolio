@@ -917,7 +917,7 @@
       </div>
     </section>
 
-    <!-- PORTFOLIO SHOWCASE -->
+   <!-- PORTFOLIO SHOWCASE -->
     <section class="content-section" id="portfolio">
       <h3 class="section-headline">Portfolio Showcase</h3>
       <p style="color: var(--text-muted); margin-bottom: 25px;">Explore my teaching modules, class materials, and community projects below:</p>
@@ -932,75 +932,282 @@
       <!-- Showcase Cards Grid -->
       <div class="portfolio-grid">
         
+        <!-- TEACHING & CLASSES (p1 to p7) -->
         <!-- CARD 1 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
-          <img src="1p.jpg" alt="Online Teaching Module" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Interactive English Modules</text></svg>';">
+          <img src="p1.JPG.jpg" alt="Interactive English Modules" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Interactive English Modules</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Interactive English Modules</h4>
-            <p>Teaching & Classes • Video & Lesson Logs</p>
+            <p>Teaching & Classes • Lesson Materials</p>
           </div>
         </div>
 
         <!-- CARD 2 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
-          <img src="2p.jpg" alt="Poy English Program Delivery" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Poy English Program</text></svg>';">
+          <img src="p2.JPG.jpg" alt="Poy English Program Delivery" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Poy English Program</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Poy English Program Delivery</h4>
-            <p>Teaching & Classes • Conversational Fluency</p>
+            <p>Teaching & Classes • Online Instruction</p>
           </div>
         </div>
 
         <!-- CARD 3 -->
-        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p3')">
-          <img src="3p.jpg" alt="Chiang Rai Kindergarten Volunteer" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Volunteer Language Workshops</text></svg>';">
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p3')">
+          <img src="p3.JPG.jpg" alt="Conversational Practice Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Conversational Practice</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Volunteer Language Workshops</h4>
-            <p>Volunteering & Projects • Chiang Rai Kindergarten</p>
+            <h4>Conversational Practice Sessions</h4>
+            <p>Teaching & Classes • Group Tutoring</p>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
+          <img src="p4.JPG.jpg" alt="Grammar & Vocabulary Builder" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Grammar & Vocabulary</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Grammar & Vocabulary Builder</h4>
+            <p>Teaching & Classes • Interactive Slides</p>
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p5')">
+          <img src="p5.JPG.jpg" alt="Student Assessment & Feedback" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Assessment & Feedback</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Student Assessment & Feedback</h4>
+            <p>Teaching & Classes • Progress Evaluation</p>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p6')">
+          <img src="p6.JPG.png" alt="Pronunciation & Listening Systems" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Pronunciation Practice</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Pronunciation & Listening Systems</h4>
+            <p>Teaching & Classes • Audio-Visual Media</p>
+          </div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p7')">
+          <img src="p7.JPG.png" alt="Curriculum & Course Outline" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Curriculum Design</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Curriculum & Course Planning</h4>
+            <p>Teaching & Classes • Lesson Frameworks</p>
+          </div>
+        </div>
+
+
+        <!-- VOLUNTEERING & PROJECTS (p8 to p13) -->
+        <!-- CARD 8 -->
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p8')">
+          <img src="p8.JPG.JPG" alt="Chiang Rai Volunteer Teaching" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Kindergarten Volunteering</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Chiang Rai Kindergarten Project</h4>
+            <p>Volunteering & Projects • Early Childhood</p>
+          </div>
+        </div>
+
+        <!-- CARD 9 -->
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p9')">
+          <img src="p9.JPG.JPG" alt="Interactive Classroom Activities" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Classroom Activities</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Interactive Classroom Activities</h4>
+            <p>Volunteering & Projects • Group Engagement</p>
+          </div>
+        </div>
+
+        <!-- CARD 10 -->
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p10')">
+          <img src="p10.JPG.JPG" alt="Educational Games & Storytelling" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Educational Games</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Educational Games & Storytelling</h4>
+            <p>Volunteering & Projects • Active Learning</p>
+          </div>
+        </div>
+
+        <!-- CARD 11 -->
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p11')">
+          <img src="p11.JPG.jpg" alt="Community Outreach & Workshops" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Community Outreach</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Community Outreach & Workshops</h4>
+            <p>Volunteering & Projects • Educational Support</p>
+          </div>
+        </div>
+
+        <!-- CARD 12 -->
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p12')">
+          <img src="p12.JPG.JPG" alt="Outdoor & Experiential Learning" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Outdoor Learning</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Outdoor & Experiential Learning</h4>
+            <p>Volunteering & Projects • Nature Activities</p>
+          </div>
+        </div>
+
+        <!-- CARD 13 -->
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p13')">
+          <img src="p13.JPG.jpg" alt="Cultural Exchange Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Cultural Exchange</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Cultural Exchange Sessions</h4>
+            <p>Volunteering & Projects • Intercultural Learning</p>
           </div>
         </div>
 
       </div>
     </section>
 
-    <!-- MODAL POPUPS -->
+    <!-- MODAL POPUPS (MODAL 1 TO 13) -->
+    <!-- Modal 1 -->
     <div id="modal-p1" class="modal-overlay" onclick="closeModal('modal-p1')">
       <div class="modal-card" onclick="event.stopPropagation()">
         <span class="close-modal" onclick="closeModal('modal-p1')">&times;</span>
         <h3 style="margin-bottom: 15px; color: var(--text-dark);">Interactive English Modules</h3>
-        
-        <video controls style="width: 100%; border-radius: 16px; background: #000; margin-bottom: 15px;">
-          <source src="1vp.mp4" type="video/mp4">
-          Your browser does not support HTML video playback.
-        </video>
-        
+        <img src="p1.JPG.jpg" alt="Detail View 1" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
         <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
           Designed engaging online modules focusing on practical everyday conversational English, vocabulary expansion, and student-centered pronunciation practices.
         </p>
       </div>
     </div>
 
+    <!-- Modal 2 -->
     <div id="modal-p2" class="modal-overlay" onclick="closeModal('modal-p2')">
       <div class="modal-card" onclick="event.stopPropagation()">
         <span class="close-modal" onclick="closeModal('modal-p2')">&times;</span>
         <h3 style="margin-bottom: 15px; color: var(--text-dark);">Poy English Program Delivery</h3>
-        
-        <img src="2p.jpg" alt="Poy English Program Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'600\' height=\'400\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'20\' fill=\'%231E40AF\'>Poy English Program Preview</text></svg>';">
-        
+        <img src="p2.JPG.jpg" alt="Detail View 2" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
         <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
           Delivered inclusive online English lessons structured around communicative teaching methods, conversational fluency lesson designs, and tech-integrated assessments.
         </p>
       </div>
     </div>
 
+    <!-- Modal 3 -->
     <div id="modal-p3" class="modal-overlay" onclick="closeModal('modal-p3')">
       <div class="modal-card" onclick="event.stopPropagation()">
         <span class="close-modal" onclick="closeModal('modal-p3')">&times;</span>
-        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Volunteer Language Workshops</h3>
-        
-        <img src="3p.jpg" alt="Chiang Rai Kindergarten Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'600\' height=\'400\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'20\' fill=\'%231E40AF\'>Chiang Rai Volunteer Preview</text></svg>';">
-
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Conversational Practice Sessions</h3>
+        <img src="p3.JPG.jpg" alt="Detail View 3" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
         <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
-          Interactive educational games and storytelling sessions organized for young learners in Chiang Rai to encourage active participation and cultivate early foreign language confidence.
+          Facilitated guided one-on-one and group speaking sessions aimed at boosting student confidence, accent reduction, and real-time error correction.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div id="modal-p4" class="modal-overlay" onclick="closeModal('modal-p4')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p4')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Grammar & Vocabulary Builder</h3>
+        <img src="p4.JPG.jpg" alt="Detail View 4" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Structured slide decks and interactive visual worksheets to help non-native learners grasp essential grammar structures and contextual vocabulary.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div id="modal-p5" class="modal-overlay" onclick="closeModal('modal-p5')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p5')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Student Assessment & Feedback</h3>
+        <img src="p5.JPG.jpg" alt="Detail View 5" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Continuous evaluation frameworks and personalized feedback logs designed to track individual learner progression across reading, writing, and speaking.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div id="modal-p6" class="modal-overlay" onclick="closeModal('modal-p6')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p6')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Pronunciation & Listening Systems</h3>
+        <img src="p6.JPG.png" alt="Detail View 6" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Audio-guided phonetics exercises and listening activities focusing on natural speech patterns, intonation, and listening comprehension techniques.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 7 -->
+    <div id="modal-p7" class="modal-overlay" onclick="closeModal('modal-p7')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p7')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Curriculum & Course Planning</h3>
+        <img src="p7.JPG.png" alt="Detail View 7" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Comprehensive syllabus designs and structured lesson outlines tailored for online marketplaces and diverse learner demographics.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 8 -->
+    <div id="modal-p8" class="modal-overlay" onclick="closeModal('modal-p8')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p8')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Chiang Rai Kindergarten Project</h3>
+        <img src="p8.JPG.JPG" alt="Detail View 8" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Volunteered in Chiang Rai assisting lead teachers in executing immersive English activities and school-wide educational development initiatives.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 9 -->
+    <div id="modal-p9" class="modal-overlay" onclick="closeModal('modal-p9')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p9')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Interactive Classroom Activities</h3>
+        <img src="p9.JPG.JPG" alt="Detail View 9" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Organized dynamic group learning games designed to maximize student engagement, active participation, and language retention.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 10 -->
+    <div id="modal-p10" class="modal-overlay" onclick="closeModal('modal-p10')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p10')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Educational Games & Storytelling</h3>
+        <img src="p10.JPG.JPG" alt="Detail View 10" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Utilized creative storytelling, visual props, and educational games to foster a fun, supportive learning environment for young learners.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 11 -->
+    <div id="modal-p11" class="modal-overlay" onclick="closeModal('modal-p11')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p11')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Community Outreach & Workshops</h3>
+        <img src="p11.JPG.jpg" alt="Detail View 11" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Engaged in community language workshops providing supplementary educational support and mentoring to displaced and young learners.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 12 -->
+    <div id="modal-p12" class="modal-overlay" onclick="closeModal('modal-p12')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p12')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Outdoor & Experiential Learning</h3>
+        <img src="p12.JPG.JPG" alt="Detail View 12" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Integrated outdoor learning sessions linking language acquisition with nature, physical activity, and practical observational tasks.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 13 -->
+    <div id="modal-p13" class="modal-overlay" onclick="closeModal('modal-p13')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-p13')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Cultural Exchange Sessions</h3>
+        <img src="p13.JPG.jpg" alt="Detail View 13" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Promoted intercultural competence through shared stories, regional traditions, and collaborative language exercises among diverse student backgrounds.
         </p>
       </div>
     </div>
