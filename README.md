@@ -914,6 +914,11 @@
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Supporting Learning in Primary Education</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English to Refugees</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Supporting Children's Mental Health</div>
+         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Child Psychology Training</div>
+          <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Children Mental Health and Wellbeing</div>
+           <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>English for Tourism Professionals </div>
+            <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>Teaching English: How to Teach Listening</div>
+        
       </div>
     </section>
 
@@ -924,10 +929,11 @@
       
       <!-- Filter Category Buttons -->
       <div class="portfolio-filters">
-        <button class="filter-btn active" data-filter="all">All Projects</button>
+       
         <button class="filter-btn" data-filter="teaching">Teaching & Classes</button>
         <button class="filter-btn" data-filter="volunteering">Volunteering & Projects</button>
         <button class="filter-btn" data-filter="awards">Awards & Recognitions</button>
+         <button class="filter-btn active" data-filter="all">All Projects</button>
       </div>
 
       <!-- Showcase Cards Grid -->
