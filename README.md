@@ -1055,7 +1055,7 @@
           <img src="A1.JPG" alt="Academic Excellence Award" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 1</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Academic Excellence Award</h4>
-            <p>Awards & Recognitions • Educational Honors</p>
+            <p>International College, Payap University</p>
           </div>
         </div>
 
@@ -1063,8 +1063,8 @@
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a2')">
           <img src="A2.JPG" alt="Outstanding Teaching Recognition" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 2</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Outstanding Teaching Recognition</h4>
-            <p>Awards & Recognitions • Instructional Excellence</p>
+            <h4>The international college of Payap University's volunteer project</h4>
+            <p>Ban San Sai School, Mae Sai District, Chiang Rai Province </p>
           </div>
         </div>
 
@@ -1072,8 +1072,8 @@
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a3')">
           <img src="A3.JPG" alt="Certificate of Merit" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 3</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Certificate of Merit</h4>
-            <p>Awards & Recognitions • Professional Honor</p>
+            <h4>Environmental video competition</h4>
+            <p> Payap University</p>
           </div>
         </div>
 
@@ -1089,16 +1089,16 @@
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a4')">
           <img src="A6.JPG" alt="Community Service Honor" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 4</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Community Service Honor</h4>
-            <p>Awards & Recognitions • Volunteer Contribution</p>
+            <h4> Contribution as a speaker</h4>
+            <p>Parami University</p>
           </div>
         </div>
         <!-- CARD 18 -->
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a4')">
           <img src="A7.JPG" alt="Community Service Honor" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 4</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Community Service Honor</h4>
-            <p>Awards & Recognitions • Volunteer Contribution</p>
+            <h4>Talent show in the dormitory open house</h4>
+            <p>Payap University</p>
           </div>
         </div>
 
