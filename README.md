@@ -924,9 +924,11 @@
       
       <!-- Filter Category Buttons -->
       <div class="portfolio-filters">
-        <button class="filter-btn active" data-filter="all">All Projects</button>
         <button class="filter-btn" data-filter="teaching">Teaching & Classes</button>
         <button class="filter-btn" data-filter="volunteering">Volunteering & Projects</button>
+         <button class="filter-btn" data-filter="volunteering">Awards & Recoginitions</button>
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        
       </div>
 
       <!-- Showcase Cards Grid -->
