@@ -937,7 +937,7 @@
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
           <img src="T1.jpg" alt="Interactive English Modules" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Interactive English Modules</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Interactive English Modules</h4>
+            <h4>Interactive English Class</h4>
             <p>Teaching & Classes • Lesson Materials</p>
           </div>
         </div>
@@ -946,7 +946,7 @@
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
           <img src="T2.jpg" alt="Poy English Program Delivery" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Poy English Program</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Poy English Program Delivery</h4>
+            <h4>Poy English - IPA lesson</h4>
             <p>Teaching & Classes • Online Instruction</p>
           </div>
         </div>
@@ -955,8 +955,8 @@
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p3')">
           <img src="T3.jpg" alt="Conversational Practice Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Conversational Practice</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Conversational Practice Sessions</h4>
-            <p>Teaching & Classes • Group Tutoring</p>
+            <h4>English Phonics</h4>
+            <p>Teaching & Classes</p>
           </div>
         </div>
 
@@ -995,7 +995,6 @@
             <p>Teaching & Classes • Lesson Frameworks</p>
           </div>
         </div>
-
 
         <!-- VOLUNTEERING & PROJECTS (p8 to p13) -->
         <!-- CARD 8 -->
@@ -1042,6 +1041,8 @@
             <p>Volunteering & Projects • Intercultural Learning</p>
           </div>
         </div>
+
+
 
       </div>
     </section>
