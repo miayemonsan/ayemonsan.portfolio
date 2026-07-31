@@ -964,15 +964,6 @@
           </div>
         </div>
 
-        <!-- CARD 3 -->
-        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p3')">
-          <img src="T3.jpg" alt="English Phonics" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>English Phonics</text></svg>';">
-          <div class="portfolio-overlay">
-            <h4>English Phonics</h4>
-            <p>Teaching & Classes</p>
-          </div>
-        </div>
-
         <!-- CARD 4 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
           <img src="T4.jpg" alt="Grammar & Vocabulary Builder" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Grammar & Vocabulary</text></svg>';">
@@ -988,15 +979,6 @@
           <div class="portfolio-overlay">
             <h4>Student Assessment & Feedback</h4>
             <p>Teaching & Classes • Progress Evaluation</p>
-          </div>
-        </div>
-
-        <!-- CARD 6 -->
-        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p6')">
-          <img src="T6.png" alt="Pronunciation & Listening Systems" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Pronunciation Practice</text></svg>';">
-          <div class="portfolio-overlay">
-            <h4>Pronunciation & Listening Systems</h4>
-            <p>Teaching & Classes • Audio-Visual Media</p>
           </div>
         </div>
 
