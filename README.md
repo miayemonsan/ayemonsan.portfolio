@@ -1052,7 +1052,7 @@
         <!-- AWARDS & RECOGNITIONS -->
         <!-- CARD 13 -->
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a1')">
-          <img src="A1.png" alt="Academic Excellence Award" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 1</text></svg>';">
+          <img src="A1.JPG" alt="Academic Excellence Award" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 1</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Academic Excellence Award</h4>
             <p>Awards & Recognitions • Educational Honors</p>
@@ -1061,7 +1061,7 @@
 
         <!-- CARD 14 -->
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a2')">
-          <img src="A2.png" alt="Outstanding Teaching Recognition" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 2</text></svg>';">
+          <img src="A2.JPG" alt="Outstanding Teaching Recognition" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 2</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Outstanding Teaching Recognition</h4>
             <p>Awards & Recognitions • Instructional Excellence</p>
@@ -1070,7 +1070,7 @@
 
         <!-- CARD 15 -->
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a3')">
-          <img src="A3.png" alt="Certificate of Merit" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 3</text></svg>';">
+          <img src="A3.JPG" alt="Certificate of Merit" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 3</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Certificate of Merit</h4>
             <p>Awards & Recognitions • Professional Honor</p>
@@ -1079,7 +1079,15 @@
 
         <!-- CARD 16 -->
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a4')">
-          <img src="A4.png" alt="Community Service Honor" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 4</text></svg>';">
+          <img src="A4.JPG" alt="Community Service Honor" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 4</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Community Service Honor</h4>
+            <p>Awards & Recognitions • Volunteer Contribution</p>
+          </div>
+        </div>
+         <!-- CARD 17 -->
+        <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a4')">
+          <img src="A5.jpeg" alt="Community Service Honor" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 4</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Community Service Honor</h4>
             <p>Awards & Recognitions • Volunteer Contribution</p>
