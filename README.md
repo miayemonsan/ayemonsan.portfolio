@@ -1081,23 +1081,23 @@
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a4')">
           <img src="A4.JPG" alt="Community Service Honor" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 4</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Community Service Honor</h4>
-            <p>Awards & Recognitions • Volunteer Contribution</p>
+            <h4>Contribution as a speaker in panel discussion</h4>
+            <p>Parami University</p>
           </div>
         </div>
          <!-- CARD 17 -->
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a4')">
           <img src="A6.JPG" alt="Community Service Honor" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 4</text></svg>';">
           <div class="portfolio-overlay">
-            <h4> Contribution as a speaker</h4>
-            <p>Parami University</p>
+            <h4> Talent show in the dormitory open house</h4>
+            <p>Payap University</p>
           </div>
         </div>
         <!-- CARD 18 -->
         <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a4')">
           <img src="A7.JPG" alt="Community Service Honor" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 4</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Talent show in the dormitory open house</h4>
+            <h4>The best presentation award in the seminar</h4>
             <p>Payap University</p>
           </div>
         </div>
