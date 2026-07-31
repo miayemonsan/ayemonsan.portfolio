@@ -917,27 +917,26 @@
       </div>
     </section>
 
-   <!-- PORTFOLIO SHOWCASE -->
+ <!-- PORTFOLIO SHOWCASE -->
     <section class="content-section" id="portfolio">
       <h3 class="section-headline">Portfolio Showcase</h3>
-      <p style="color: var(--text-muted); margin-bottom: 25px;">Explore my teaching modules, class materials, and community projects below:</p>
+      <p style="color: var(--text-muted); margin-bottom: 25px;">Explore my teaching modules, class materials, community projects, and awards below:</p>
       
       <!-- Filter Category Buttons -->
       <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
         <button class="filter-btn" data-filter="teaching">Teaching & Classes</button>
         <button class="filter-btn" data-filter="volunteering">Volunteering & Projects</button>
-         <button class="filter-btn" data-filter="volunteering">Awards & Recoginitions</button>
-        <button class="filter-btn active" data-filter="all">All Projects</button>
-        
+        <button class="filter-btn" data-filter="awards">Awards & Recognitions</button>
       </div>
 
       <!-- Showcase Cards Grid -->
       <div class="portfolio-grid">
         
-        <!-- TEACHING & CLASSES (p1 to p7) -->
+        <!-- TEACHING & CLASSES -->
         <!-- CARD 1 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
-          <img src="T1.jpg" alt="Interactive English Modules" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Interactive English Modules</text></svg>';">
+          <img src="T1.jpg" alt="Interactive English Class" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Interactive English Class</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Interactive English Class</h4>
             <p>Teaching & Classes • Lesson Materials</p>
@@ -946,7 +945,7 @@
 
         <!-- CARD 2 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
-          <img src="T2.jpg" alt="Poy English Program Delivery" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Poy English Program</text></svg>';">
+          <img src="T2.jpg" alt="Poy English - IPA lesson" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Poy English - IPA Lesson</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Poy English - IPA lesson</h4>
             <p>Teaching & Classes • Online Instruction</p>
@@ -955,7 +954,7 @@
 
         <!-- CARD 3 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p3')">
-          <img src="T3.jpg" alt="Conversational Practice Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Conversational Practice</text></svg>';">
+          <img src="T3.jpg" alt="English Phonics" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>English Phonics</text></svg>';">
           <div class="portfolio-overlay">
             <h4>English Phonics</h4>
             <p>Teaching & Classes</p>
@@ -991,17 +990,17 @@
 
         <!-- CARD 7 -->
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p7')">
-          <img src="T7.png" alt="Curriculum & Course Outline" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Curriculum Design</text></svg>';">
+          <img src="T7.png" alt="Curriculum & Course Planning" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Curriculum Design</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Curriculum & Course Planning</h4>
             <p>Teaching & Classes • Lesson Frameworks</p>
           </div>
         </div>
 
-        <!-- VOLUNTEERING & PROJECTS (p8 to p13) -->
+        <!-- VOLUNTEERING & PROJECTS -->
         <!-- CARD 8 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p8')">
-          <img src="V1.JPG" alt="Chiang Rai Volunteer Teaching" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Kindergarten Volunteering</text></svg>';">
+          <img src="V1.JPG" alt="Chiang Rai Kindergarten Project" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Kindergarten Volunteering</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Chiang Rai Kindergarten Project</h4>
             <p>Volunteering & Projects • Early Childhood</p>
@@ -1018,7 +1017,7 @@
         </div>
 
         <!-- CARD 10 -->
-        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p11')">
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p10')">
           <img src="V12.JPG" alt="Community Outreach & Workshops" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Community Outreach</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Community Outreach & Workshops</h4>
@@ -1027,7 +1026,7 @@
         </div>
 
         <!-- CARD 11 -->
-        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p12')">
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p11')">
           <img src="V13.jpg" alt="Outdoor & Experiential Learning" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Outdoor Learning</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Outdoor & Experiential Learning</h4>
@@ -1036,7 +1035,7 @@
         </div>
 
         <!-- CARD 12 -->
-        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p13')">
+        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p12')">
           <img src="V9.JPG" alt="Cultural Exchange Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Cultural Exchange</text></svg>';">
           <div class="portfolio-overlay">
             <h4>Cultural Exchange Sessions</h4>
@@ -1044,9 +1043,92 @@
           </div>
         </div>
 
+        <!-- AWARDS & RECOGNITIONS -->
+        <!-- CARD 13 -->
+        <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a1')">
+          <img src="A1.png" alt="Academic Excellence Award" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 1</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Academic Excellence Award</h4>
+            <p>Awards & Recognitions • Educational Honors</p>
+          </div>
+        </div>
 
+        <!-- CARD 14 -->
+        <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a2')">
+          <img src="A2.png" alt="Outstanding Teaching Recognition" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 2</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Outstanding Teaching Recognition</h4>
+            <p>Awards & Recognitions • Instructional Excellence</p>
+          </div>
+        </div>
+
+        <!-- CARD 15 -->
+        <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a3')">
+          <img src="A3.png" alt="Certificate of Merit" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 3</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Certificate of Merit</h4>
+            <p>Awards & Recognitions • Professional Honor</p>
+          </div>
+        </div>
+
+        <!-- CARD 16 -->
+        <div class="portfolio-item" data-category="awards" onclick="openModal('modal-a4')">
+          <img src="A4.png" alt="Community Service Honor" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Award & Recognition 4</text></svg>';">
+          <div class="portfolio-overlay">
+            <h4>Community Service Honor</h4>
+            <p>Awards & Recognitions • Volunteer Contribution</p>
+          </div>
+        </div>
 
       </div>
+    </section>
+
+    <!-- MODAL POPUPS FOR AWARDS -->
+    <div id="modal-a1" class="modal-overlay" onclick="closeModal('modal-a1')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-a1')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Academic Excellence Award</h3>
+        <img src="A1.png" alt="Award 1 Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Awarded in recognition of outstanding academic performance and dedication during university studies.
+        </p>
+      </div>
+    </div>
+
+    <div id="modal-a2" class="modal-overlay" onclick="closeModal('modal-a2')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-a2')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Outstanding Teaching Recognition</h3>
+        <img src="A2.png" alt="Award 2 Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Recognized for exemplary performance in designing and delivering high-engagement English instruction.
+        </p>
+      </div>
+    </div>
+
+    <div id="modal-a3" class="modal-overlay" onclick="closeModal('modal-a3')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-a3')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Certificate of Merit</h3>
+        <img src="A3.png" alt="Award 3 Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Honored for notable contributions and active engagement in professional development and educational programs.
+        </p>
+      </div>
+    </div>
+
+    <div id="modal-a4" class="modal-overlay" onclick="closeModal('modal-a4')">
+      <div class="modal-card" onclick="event.stopPropagation()">
+        <span class="close-modal" onclick="closeModal('modal-a4')">&times;</span>
+        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Community Service Honor</h3>
+        <img src="A4.png" alt="Award 4 Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
+        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
+          Presented in appreciation for volunteer teaching and community engagement initiatives supporting young learners.
+        </p>
+      </div>
+    </div>
+
+    </div>
     </section>
     
 
