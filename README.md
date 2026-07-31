@@ -1017,15 +1017,6 @@
         </div>
 
         <!-- CARD 10 -->
-        <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p10')">
-          <img src="V11.jpg" alt="Educational Games & Storytelling" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Educational Games</text></svg>';">
-          <div class="portfolio-overlay">
-            <h4>Educational Games & Storytelling</h4>
-            <p>Volunteering & Projects • Active Learning</p>
-          </div>
-        </div>
-
-        <!-- CARD 11 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p11')">
           <img src="V12.JPG" alt="Community Outreach & Workshops" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Community Outreach</text></svg>';">
           <div class="portfolio-overlay">
@@ -1034,7 +1025,7 @@
           </div>
         </div>
 
-        <!-- CARD 12 -->
+        <!-- CARD 11 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p12')">
           <img src="V13.jpg" alt="Outdoor & Experiential Learning" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Outdoor Learning</text></svg>';">
           <div class="portfolio-overlay">
@@ -1043,7 +1034,7 @@
           </div>
         </div>
 
-        <!-- CARD 13 -->
+        <!-- CARD 12 -->
         <div class="portfolio-item" data-category="volunteering" onclick="openModal('modal-p13')">
           <img src="V9.JPG" alt="Cultural Exchange Sessions" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Cultural Exchange</text></svg>';">
           <div class="portfolio-overlay">
