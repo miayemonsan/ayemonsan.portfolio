@@ -819,7 +819,7 @@
         <div class="timeline-card">
           <span class="card-date-badge">2018 – 2019</span>
           <h4 class="card-headline">B.A. in English</h4>
-          <p class="card-subheadline">Hpa-An Distance University</p>
+          <p class="card-subheadline">Hpa-An University</p>
         </div>
       </div>
     </section>
