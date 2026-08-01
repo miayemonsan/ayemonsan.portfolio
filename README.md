@@ -950,7 +950,7 @@
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
           <img src="T1.jpg" alt="Interactive English Class" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Interactive English Class</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Interactive English Class</h4>
+            <h4>Telling the time lesson</h4>
             <p>Teaching & Classes • Lesson Materials</p>
           </div>
         </div>
@@ -968,7 +968,7 @@
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
           <img src="T4.jpg" alt="Grammar & Vocabulary Builder" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Grammar & Vocabulary</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Grammar & Vocabulary Builder</h4>
+            <h4>Vocabulary Builder</h4>
             <p>Teaching & Classes • Interactive Slides</p>
           </div>
         </div>
@@ -977,7 +977,7 @@
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p5')">
           <img src="T5.jpg" alt="Student Assessment & Feedback" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Assessment & Feedback</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Student Assessment & Feedback</h4>
+            <h4>Student Assessment</h4>
             <p>Teaching & Classes • Progress Evaluation</p>
           </div>
         </div>
@@ -986,8 +986,8 @@
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p7')">
           <img src="T7.png" alt="Curriculum & Course Planning" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Curriculum Design</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Curriculum & Course Planning</h4>
-            <p>Teaching & Classes • Lesson Frameworks</p>
+            <h4>Correcting students' pronunciation</h4>
+            <p>Pronunciation practice</p>
           </div>
         </div>
 
