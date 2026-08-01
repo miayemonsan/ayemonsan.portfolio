@@ -1090,54 +1090,6 @@
           </div>
         </div>
 
-      </div>
-    </section>
-
-    <!-- MODAL POPUPS FOR AWARDS -->
-    <div id="modal-a1" class="modal-overlay" onclick="closeModal('modal-a1')">
-      <div class="modal-card" onclick="event.stopPropagation()">
-        <span class="close-modal" onclick="closeModal('modal-a1')">&times;</span>
-        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Academic Excellence Award</h3>
-        <img src="A1.png" alt="Award 1 Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
-        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
-          Awarded in recognition of outstanding academic performance and dedication during university studies.
-        </p>
-      </div>
-    </div>
-
-    <div id="modal-a2" class="modal-overlay" onclick="closeModal('modal-a2')">
-      <div class="modal-card" onclick="event.stopPropagation()">
-        <span class="close-modal" onclick="closeModal('modal-a2')">&times;</span>
-        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Outstanding Teaching Recognition</h3>
-        <img src="A2.png" alt="Award 2 Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
-        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
-          Recognized for exemplary performance in designing and delivering high-engagement English instruction.
-        </p>
-      </div>
-    </div>
-
-    <div id="modal-a3" class="modal-overlay" onclick="closeModal('modal-a3')">
-      <div class="modal-card" onclick="event.stopPropagation()">
-        <span class="close-modal" onclick="closeModal('modal-a3')">&times;</span>
-        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Certificate of Merit</h3>
-        <img src="A3.png" alt="Award 3 Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
-        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
-          Honored for notable contributions and active engagement in professional development and educational programs.
-        </p>
-      </div>
-    </div>
-
-    <div id="modal-a4" class="modal-overlay" onclick="closeModal('modal-a4')">
-      <div class="modal-card" onclick="event.stopPropagation()">
-        <span class="close-modal" onclick="closeModal('modal-a4')">&times;</span>
-        <h3 style="margin-bottom: 15px; color: var(--text-dark);">Community Service Honor</h3>
-        <img src="A4.png" alt="Award 4 Detail" style="width: 100%; border-radius: 16px; margin-bottom: 15px;" onerror="this.onerror=null; this.style.display='none';">
-        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.95em;">
-          Presented in appreciation for volunteer teaching and community engagement initiatives supporting young learners.
-        </p>
-      </div>
-    </div>
-
     </div>
     </section>
     
