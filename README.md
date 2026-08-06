@@ -743,7 +743,7 @@
       <div class="hero-content">
         <div class="accent-line"></div>
         <h1>I'm <span>Aye Mon San</span>,<br>an <span>English Instructor</span></h1>
-        <div class="hero-tagline">English Instructor | TEFL Certified | Passionate Educator</div>
+        <div class="hero-tagline">English Instructor | DISP Scholar & Unighted Board Scholarship Recipient | TEFL Certified Passionate Educator</div>
         <p>
           Passionate about creating inclusive and engaging learning environments where students can develop strong English communication skills while building cultural awareness and confidence.
         </p>
