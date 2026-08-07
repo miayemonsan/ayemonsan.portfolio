@@ -728,6 +728,7 @@
       
       <ul class="nav-links">
         <li><a href="#about" class="active">About Me</a></li>
+        <li><a href="#scholarships">Scholarships</a></li>
         <li><a href="#qualifications">Qualifications</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -794,6 +795,34 @@
           <div class="about-meta-box"><h4>Current Base</h4><p>Chiang Mai, Thailand</p></div>
           <div class="about-meta-box"><h4>Status</h4><p>Open to Opportunities</p></div>
         </div>
+      </div>
+    </section>
+
+    <!-- NEW SCHOLARSHIPS & HONORS SECTION (BELOW ABOUT ME) -->
+    <section class="content-section" id="scholarships">
+      <h3 class="section-headline">Scholarships & Honors</h3>
+      <div class="timeline-grid" style="margin-top: 20px;">
+        
+        <!-- United Board Scholar -->
+        <div class="timeline-card">
+          <span class="card-date-badge">Present</span>
+          <h4 class="card-headline">Current United Board Scholar</h4>
+          <p class="card-subheadline">United Board for Christian Higher Education in Asia</p>
+          <p style="color: var(--text-muted); font-size: 0.9em; line-height: 1.6;">
+            Awarded full competitive scholarship funding to pursue higher education academic studies and professional leadership development.
+          </p>
+        </div>
+
+        <!-- DISP Scholar -->
+        <div class="timeline-card">
+          <span class="card-date-badge">Former Scholar</span>
+          <h4 class="card-headline">Former DISP Scholar</h4>
+          <p class="card-subheadline">Displaced Students Program (DISP)</p>
+          <p style="color: var(--text-muted); font-size: 0.9em; line-height: 1.6;">
+            Selected recipient of the DISP academic scholarship program in recognition of academic dedication and leadership potential.
+          </p>
+        </div>
+
       </div>
     </section>
 
