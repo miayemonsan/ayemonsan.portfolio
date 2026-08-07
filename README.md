@@ -947,8 +947,8 @@
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English: How to Teach Listening</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English: How to Teach Pronunciation</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Primary Education Listening and Observing</div>
-        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English understanding language systems</div>
-        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Young children, the outdoors and nature</div>
+        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English Understanding Language Systems</div>
+        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Young Children, The Outdoors and Nature</div>
       </div>
     </section>
 
