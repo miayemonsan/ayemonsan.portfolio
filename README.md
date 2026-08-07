@@ -1004,8 +1004,8 @@
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p7')">
           <img src="T7.png" alt="Correcting students pronunciation" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23EFF6FF\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-family=\'sans-serif\' font-size=\'16\' fill=\'%231E40AF\'>Curriculum Design</text></svg>';">
           <div class="portfolio-overlay">
-            <h4>Correcting students' pronunciation</h4>
-            <p>Pronunciation practice</p>
+            <h4>Helping Students Improve Their Pronunciation</h4>
+            <p>Pronunciation Practice</p>
           </div>
         </div>
 
