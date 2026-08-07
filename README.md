@@ -865,7 +865,7 @@
         </div>
 
         <div class="timeline-card">
-          <span class="card-date-badge">Sep 2024 – Jul 2025</span>
+          <span class="card-date-badge">Sep 2024 – Present</span>
           <h4 class="card-headline">Freelance English Tutor</h4>
           <p class="card-subheadline">Online Marketplace</p>
           <ul class="card-bullet-list">
@@ -948,7 +948,7 @@
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English: How to Teach Pronunciation</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Primary Education Listening and Observing</div>
         <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Teaching English Understanding Language Systems</div>
-        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Young Children, The Outdoors and Nature</div>
+        <div class="cert-card"><div class="cert-icon"><i class="fa-solid fa-certificate"></i></div> Young Children, the Outdoors and Nature</div>
       </div>
     </section>
 
