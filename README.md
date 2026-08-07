@@ -817,7 +817,7 @@
         <div class="timeline-card">
           <span class="card-date-badge">Former Scholar</span>
           <h4 class="card-headline">Former DISP Scholar</h4>
-          <p class="card-subheadline">Displaced Students Program (DISP)</p>
+          <p class="card-subheadline">Diversity and Inclusive Scholarship Program (DISP), USAID</p>
           <p style="color: var(--text-muted); font-size: 0.9em; line-height: 1.6;">
             Selected recipient of the DISP academic scholarship program in recognition of academic dedication and leadership potential.
           </p>
